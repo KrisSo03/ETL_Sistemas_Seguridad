@@ -1,0 +1,621 @@
+Codigo_Producto_SKU,Nombre,Descripcion_Producto,Stock,Categoria,Imagen(url del servidor)
+SKU-1001,Martillo de Uña Curva 20oz,Martillo profesional con cabeza forjada y mango de fibra de vidrio.,45,Herramientas manuales,https://server.com/img/martillo.jpg
+1002-A,Lijadora Orbital Bosch GEX 125-1,Lijadora excéntrica de 125 mm con velocidad ajustable.,-5,HERRAMIENTAS MANUALES,https://server.com/img/lijadora_bosch.jpg
+NULL,Kit de Tornillos y Tacos,Surtido de tornillos autorroscantes y tacos de plásti,150,Tornillos,https://server.com/img/tornillos.jpg
+4532B,Pintura Acrílica Interior 1 Gl.,Pintura base agua para interiores, acabado mate.,12,Pintura,https://server.com/img/pintura_mate.jpg
+SKU_4005,Guantes de Seguridad Nitrilo,Guantes resistentes a químicos, talla L.,120,Seguridad,https://server.com/img/guantes.jpg
+77-PRM,Taladro Percutor Inalámbrico,Potente taladro a batería de 18V con cargador rápido.,NULL,Herramientas,https://server.com/img/taladro_inal.jpg
+1007,Manguera de Jardín Reforzada 25m,Manguera de PVC tricapa, resistente a torceduras.,90,JARDIN,https://server.com/img/manguera_jardin.jpg
+"N/A,Sierra Circular Eléctrica 7 1/4"",Herramienta eléctrica para cortes rápidos y precisos en madera.,33,HERRAMIENTAS,https://server.com/img/sierra_cir.jpg"
+1009,Cinta Métrica Autoretractil 5m,Cinta de acero recubierta de nylon.,55,HERRAMIENTAS MANUALES,NULL
+SKU-1010,Bombilla LED E27 10W Blanca,Bombilla de bajo consumo, luz fría.,1000,ILUMINACION,https://server.com/img/led_e27.jpg
+1011,Adhesivo Sellador de Silicona,Silicona acética para sellar juntas y fisuras. Color blanco.,145,quimicos,https://server.com/img/silicona.jpg
+4532C,Pintura Acrílica Interior 1 Gl.,Pintura base agua para interiores, acabado satín.,NULL,Pinturas,https://server.com/img/pintura_satin.jpg
+1013,Escalera Plegable Aluminio 3m,Escalera de tijera con peldaños antideslizantes.,18,SEGURIDAD,https://server.com/img/escalera.jpg
+1014-X,Lámpara Solar de Exterior,Foco con sensor de movimiento y panel solar integrado.,-10,iluminación,https://server.com/img/lampara_solar.jpg
+SKU-1015,Candado de Seguridad Latón 50mm,Candado de arco largo, resistente a la corrosión.,95,HERRAJES,https://server.com/img/candado.jpg
+NULL,Pasta para Soldar Estaño,Pasta fundente para soldadura electrónica. Contiene plomo.,200,soldadura,https://server.com/img/pasta_sold.jpg
+9999,Nivel Láser Autonivelante,NULL,25,HERRAMIENTAS,https://server.com/img/nivel_laser.jpg
+"1018,Llave Ajustable Cromada 12"",Herramienta manual de acero forjado y acabado cromo.,70,manuales,https://server.com/img/llave_ajust.jpg"
+1019,Tubo PVC 1/2 pulgada,Tubo rígido para instalaciones eléctricas y de fontanería.,150,Fontanería,https://server.com/img/tubo_pvc.jpg
+INV-2020,Electrodos para Soldadura 6013,Electrodos de rutilo para soldadura de acero al carbono.,50,SOLDADURA,https://server.com/img/electrodos.jpg
+"1021,Discos de Corte para Metal 4.5"",Disco abrasivo de óxido de aluminio.,100,CONSUMIBLES,https://server.com/img/disco_corte.jpg"
+SKU-1022,Brocas para Concreto Set 5pcs,Set de brocas de widia para perforar hormigón.,-2,Brocas,https://server.com/img/brocas_conc.jpg
+1023,Rodillo de Pintura Antigoteo,Rodillo de lana sintética de 9 pulgadas.,180,pintura,https://server.com/img/rodillo_pint.jpg
+INVALID,Lona de Polietileno 3x4m,Lona impermeable y resistente a UV.,40,SEGURIDAD,NULL
+1025,Pistola de Silicona Reforzada,Pistola para cartuchos de sellador, de aluminio.,75,Herramientas,https://server.com/img/pistola_sil.jpg
+1026,Cargador Batería 18V Litio,NULL,NULL,HERRAMIENTAS,https://server.com/img/cargador_bat.jpg
+4532D,Pintura Acrílica Interior 1 Gl.,Pintura base agua para interiores, acabado mate. Formula mejorada.,10,Pintura,https://server.com/img/pintura_mate_v2.jpg
+SKU-1028,Lijadora Roto Orbital Neumática,Lijadora de aire comprimido, alta velocidad.,30,HERRAMIENTAS MANUALES,https://server.com/img/lijadora_neum.jpg
+1029,Máscara de Soldar Fotosensible,Casco automático con oscurecimiento rápido.,15,seguridad,https://server.com/img/mascara_sold.jpg
+1030,Cinta de Embalaje Transparente,Cinta adhesiva de polipropileno. 48mm x 50m.,100,EMBALAJES,https://server.com/img/cinta_emb.jpg
+1031,Cemento de Contacto 1/4 Gl.,Adhesivo industrial de secado rápido para madera y cuero.,NULL,QUIMICOS,https://server.com/img/cemento_cont.jpg
+4532E,Pintura Acrílica Interior 1 Gl.,Pintura base agua para interiores, acabado satín. Nuevo color.,13,PINTURAS,https://server.com/img/pintura_satin_v2.jpg
+1033,Set de Brocas para Madera 10pcs,Brocas de acero rápido con punta de centrado.,110,BROCAS,https://server.com/img/brocas_madera.jpg
+NULL,Codo PVC 90 grados 1/2 pulg,Codo para fontanería de presión.,400,fontaneria,https://server.com/img/codo_pvc.jpg
+1035,Clavos de Acero 2 pulgadas,Caja de 1 kg de clavos lisos.,75,FIJACIONES,https://server.com/img/clavos.jpg
+SKU-1036,Bomba Sumergible 1/2 HP,Bomba para extracción de agua limpia.,5,JARDINERIA,https://server.com/img/bomba_agua.jpg
+1037,Caja de Herramientas Plástico,Organizador de herramientas con bandeja extraíble.,22,HERRAMIENTAS MANUALES,https://server.com/img/caja_herra.jpg
+1038,Llave de Tubo 18mm,Llave de boca fija para tuercas y pernos.,90,Manuales,NULL
+"1039,Lijadora de Banda 3x21"",Herramienta eléctrica de alta potencia.,15,HERRAMIENTAS,https://server.com/img/lijadora_banda.jpg"
+INV-2040,Soldadora Inverter 130 Amps,Equipo compacto para soldadura ARC.,7,SOLDADURA,https://server.com/img/soldadora.jpg
+1041,Gafas de Seguridad Transparentes,Protección ocular contra impactos y polvo.,250,SEGURIDAD,https://server.com/img/gafas_seg.jpg
+SKU-1042,Linterna Frontal LED Recargable,Linterna para casco con múltiples modos de luz.,-1,iluminación,https://server.com/img/linterna_front.jpg
+1043,Kit de Fijación para Drywall,Tornillos y anclajes para placas de yeso.,130,FIJACIONES,https://server.com/img/kit_drywall.jpg
+4532F,Pintura Acrílica Interior 1 Gl.,Pintura base agua para interiores, acabado mate.,NULL,Pinturas,https://server.com/img/pintura_mate_v3.jpg
+1045,Adhesivo Epóxico Bicomponente,Pegamento extra fuerte de dos partes.,160,QUIMICOS,https://server.com/img/epoxico.jpg
+1046,Tijeras de Podar Bypass,Tijeras para jardinería, hoja de acero inoxidable.,60,JARDIN,https://server.com/img/tijeras_podar.jpg
+1047,Nivel de Burbuja 60cm,Herramienta de medición con tres burbujas.,85,HERRAMIENTAS,https://server.com/img/nivel_burbuja.jpg
+1048,Masilla Plástica para Carrocería,Masilla de poliéster para reparación de vehículos.,25,Quimicos,https://server.com/img/masilla_plast.jpg
+1049,Kit de Destornilladores Precisión,Set de 32 puntas intercambiables para electrónica.,115,manuales,https://server.com/img/kit_destorn.jpg
+1050,Termofusora para PPR,Máquina para soldadura de tuberías plásticas.,5,Fontaneria,https://server.com/img/termofusora.jpg
+INV-2051,Cables para Soldadora 2 Metros,Cables de cobre para máquina de soldar.,35,SOLDADURA,https://server.com/img/cables_sold.jpg
+SKU-1052,Set de Llaves Allen Milimétricas,Juego de llaves hexagonales en estuche plástico.,105,HERRAMIENTAS MANUALES,https://server.com/img/allen_metric.jpg
+1053,Cerradura de Sobreponer,Cerradura para puerta de metal, incluye 3 llaves.,65,Herrajes,https://server.com/img/cerradura_sob.jpg
+4532G,Pintura Acrílica Interior 1 Gl.,Pintura base agua para interiores.,14,PINTURA,https://server.com/img/pintura_v4.jpg
+1055,Motosierra a Gasolina 52cc,Potente motosierra para corte de leña.,3,JARDINERIA,https://server.com/img/motosierra.jpg
+1056,Cinta Aislante Eléctrica Negra,Cinta de PVC de alta resistencia a la abrasión.,500,electricidad,https://server.com/img/cinta_aisl.jpg
+1057,Medidor Digital de Humedad,Higrómetro para madera y materiales de construcción.,20,HERRAMIENTAS,https://server.com/img/medidor_hum.jpg
+1058,Remachadora Manual Profesional,Herramienta para colocar remaches de aluminio y acero.,60,manuales,https://server.com/img/remachadora.jpg
+1059,Pegamento de Poliuretano Expansivo,Espuma aislante para rellenar huecos y fisuras.,100,QUIMICOS,https://server.com/img/poliuretano.jpg
+SKU-1060,Disyuntor Térmico 20 Amps,Breaker de protección contra sobrecarga y cortocircuito.,80,ELECTRICIDAD,https://server.com/img/disyuntor.jpg
+1061,Grifo para Lavaplatos Monomando,Grifo de cocina con caño giratorio.,28,Fontaneria,https://server.com/img/grifo_cocina.jpg
+4532H,Pintura Acrílica Interior 1 Gl.,NULL,NULL,PINTURA,NULL
+1063,Tornillos para Madera Cabeza Plana,Tornillos de latón para carpintería fina. Caja de 500 gramos.,150,Tornillos,https://server.com/img/tornillos_madera.jpg
+1064,Carretilla de Obra 65L,Carretilla con rueda neumática para transporte de materiales.,10,SEGURIDAD,https://server.com/img/carretilla.jpg
+1065,Aceite Lubricante Multiusos,Aceite penetrante y lubricante en spray. 400ml.,200,quimicos,https://server.com/img/aceite_lub.jpg
+NULL,Motosierra Eléctrica,Motosierra con motor eléctrico de 2000W.,4,Jardinería,https://server.com/img/motosierra_el.jpg
+1067,Multímetro Digital,Instrumento para medir voltaje, corriente y resistencia.,17,HERRAMIENTAS,https://server.com/img/multimetro.jpg
+"1068,Esmeriladora Angular 4 1/2"",Máquina para pulir y cortar metal.,25,Herramientas,https://server.com/img/esmeriladora.jpg"
+1069,Kit de Reparación de Neumáticos,Set para parchar llantas sin cámara.,90,manuales,https://server.com/img/kit_neum.jpg
+INV-2070,Pinzas Porta Electrodo 300A,Pinzas de alta resistencia para soldadura.,40,SOLDADURA,https://server.com/img/pinzas_elec.jpg
+1071,Boquilla de Riego Ajustable,Boquilla para manguera de jardín con varios patrones de riego.,110,JARDIN,https://server.com/img/boquilla_riego.jpg
+SKU-1072,Regulador de Voltaje 1000W,Protector contra picos de tensión y fluctuaciones.,-3,ELECTRICIDAD,https://server.com/img/regulador_volt.jpg
+1073,Bisagras de Piano 1.5m,Bisagra continua de acero. Se vende por metro.,75,Herrajes,https://server.com/img/bisagra_piano.jpg
+4532I,Pintura Acrílica Interior 1 Gl.,Pintura base agua para interiores, acabado mate. Últimas unidades.,16,PINTURAS,https://server.com/img/pintura_mate_v4.jpg
+1075,Limas para Metal Set 5pcs,Set de limas planas, redondas y triangulares.,45,manuales,https://server.com/img/limas_metal.jpg
+1076,Kit de Juntas y O-Rings,Surtido de sellos de goma para reparaciones de fontanería.,200,Fontanería,https://server.com/img/o_rings.jpg
+1077,Cable Eléctrico THHN #12,Conductor de cobre para instalaciones residenciales.,NULL,ELECTRICIDAD,https://server.com/img/cable_thhn.jpg
+1078,Pico de Loro para Jardinería,Pala pequeña y puntiaguda para trabajar la tierra.,60,jardinería,https://server.com/img/pico_loro.jpg
+1079,Sierra de Calar 500W,Herramienta para cortes curvos y detallados en madera.,20,HERRAMIENTAS,NULL
+1080,Removedor de Pintura Gel,Decapante químico en formato gel. 1 Litro.,55,quimicos,https://server.com/img/removedor_pint.jpg
+1081,Tuercas Hexagonales Acero Inox,NULL,300,FIJACIONES,https://server.com/img/tuercas_inox.jpg
+SKU-1082,Cincel SDS Plus,Cincel plano para rotomartillo.,70,HERRAMIENTAS MANUALES,https://server.com/img/cincel_sds.jpg
+1083,Brocas Forstner Set 7pcs,Brocas para agujeros ciegos en madera.,35,BROCAS,https://server.com/img/brocas_forst.jpg
+4532J,Pintura Acrílica Interior 1 Gl.,Pintura base agua para interiores, acabado mate.,11,Pintura,https://server.com/img/pintura_mate_v5.jpg
+1085,Manguera de Presión para Compresor,Manguera de 10 metros con acoples rápidos.,15,HERRAMIENTAS,https://server.com/img/manguera_comp.jpg
+NULL,Válvula Esférica 1/2 pulgada,Válvula de corte rápido para agua.,180,fontaneria,https://server.com/img/valvula_esf.jpg
+1087,Grapadora Manual para Tapicería,Grapadora de alto impacto para telas y maderas.,40,Manuales,https://server.com/img/grapadora.jpg
+1088,Reflector LED de Emergencia,Reflector portátil con batería recargable.,25,ILUMINACION,https://server.com/img/reflector_led.jpg
+1089,Cerradura Cilindro Europeo,Cilindro de alta seguridad para puertas.,80,HERRAJES,https://server.com/img/cilindro_eur.jpg
+INV-2090,Máscara de Gas con Filtro,Mascarilla de protección respiratoria con doble filtro.,12,SEGURIDAD,https://server.com/img/mascara_gas.jpg
+1091,Sika Impermeabilizante 4kg,Mortero impermeable para exteriores.,90,QUIMICOS,https://server.com/img/sika_imper.jpg
+SKU-1092,Sierra de Mesa 10 pulgadas,Sierra estacionaria para carpintería pesada.,4,HERRAMIENTAS,https://server.com/img/sierra_mesa.jpg
+1093,Tornillos Autoperforantes,Caja de 1000 unidades, cabeza hexagonal.,150,fijaciones,https://server.com/img/tornillos_aut.jpg
+4532K,Pintura Acrílica Interior 1 Gl.,Pintura base agua para interiores.,NULL,PINTURA,https://server.com/img/pintura_v5.jpg
+1095,Kit de Accesorios para Dremel,Set de 100 piezas para herramientas rotativas.,60,CONSUMIBLES,https://server.com/img/kit_dremel.jpg
+1096,Cepillo de Alambre Circular,Cepillo para pulir y remover óxido.,250,consumibles,https://server.com/img/cepillo_al.jpg
+1097,Sierra Caladora de Banco,Sierra de precisión para cortes complejos.,3,HERRAMIENTAS,https://server.com/img/sierra_cal.jpg
+1098,Destornillador Aislado VDE,Destornillador certificado para trabajos con electricidad.,85,ELECTRICIDAD,https://server.com/img/dest_vde.jpg
+1099,Regadera de Plástico 5 Litros,Regadera para plantas de jardín, color verde.,100,JARDIN,https://server.com/img/regadera.jpg
+1100-F,Medidor Láser de Distancia 50m,Telémetro láser con funciones de área y volumen.,-8,HERRAMIENTAS,https://server.com/img/medidor_laser.jpg
+SKU-1001,Martillo de Uña Curva 20oz,Martillo profesional con cabeza forjada y mango de fibra de vidrio.,45,HERRAMIENTAS MANUALES,https://server.com/img/martillo_001.jpg
+1002-A,Lijadora Orbital Bosch GEX 125-1,Lijadora excéntrica de 125 mm con velocidad ajustable.,-5,Herramientas,https://server.com/img/lijadora_002.jpg
+NULL,Kit de Tornillos y Tacos,Surtido de tornillos autorroscantes y tacos de plástic,150,Tornillos,https://server.com/img/tornillos_003.jpg
+4532B,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores, acabado mate.,12,Pintura,https://server.com/img/pintura_004.jpg
+SKU_4005,Guantes de Seguridad Nitrilo,Guantes resistentes a químicos, talla L.,120,Seguridad,https://server.com/img/guantes_005.jpg
+77-PRM,Taladro Percutor Inalámbrico,Potente taladro a batería de 18V con cargador rápido.,NULL,Herramientas,https://server.com/img/taladro_006.jpg
+1007,Manguera de Jardín Reforzada 25m,Manguera de PVC tricapa, resistente a torceduras.,90,JARDINERÍA,https://server.com/img/manguera_007.jpg
+"N/A,Sierra Circular Eléctrica 7 1/4"",Herramienta eléctrica para cortes rápidos y precisos en madera.,33,Herramientas,https://server.com/img/sierra_008.jpg"
+1009,Cinta Métrica Autoretractil 5m,Cinta de acero recubierta de nylon.,55,HERRAMIENTAS MANUALES,NULL
+SKU-1010,Bombilla LED E27 10W Blanca,Bombilla de bajo consumo, luz fría.,1000,ILUMINACION,https://server.com/img/led_010.jpg
+1011,Adhesivo Sellador de Silicona,Silicona acética para sellar juntas y fisuras. Color blanco.,145,quimicos,https://server.com/img/silicona_011.jpg
+4532C,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores, acabado satín.,NULL,Pinturas,https://server.com/img/pintura_012.jpg
+1013,Escalera Plegable Aluminio 3m,Escalera de tijera con peldaños antideslizantes.,18,SEGURIDAD,https://server.com/img/escalera_013.jpg
+1014-X,Lámpara Solar de Exterior,Foco con sensor de movimiento y panel solar integrado.,-10,iluminación,https://server.com/img/lampara_014.jpg
+SKU-1015,Candado de Seguridad Latón 50mm,Candado de arco largo, resistente a la corrosión.,95,HERRAJES,https://server.com/img/candado_015.jpg
+NULL,Pasta para Soldar Estaño,Pasta fundente para soldadura electrónica. Contiene plomo.,200,soldadura,https://server.com/img/pasta_sold_016.jpg
+9999,Nivel Láser Autonivelante,NULL,25,Herramientas,https://server.com/img/nivel_laser_017.jpg
+"1018,Llave Ajustable Cromada 12"",Herramienta manual de acero forjado y acabado cromo.,70,Manuales,https://server.com/img/llave_ajust_018.jpg"
+1019,Tubo PVC 1/2 pulgada,Tubo rígido para instalaciones eléctricas y de fontanería.,150,FONTANERIA,https://server.com/img/tubo_pvc_019.jpg
+INV-2020,Electrodos para Soldadura 6013,Electrodos de rutilo para soldadura de acero al carbono.,50,SOLDADURA,https://server.com/img/electrodos_020.jpg
+"1021,Discos de Corte para Metal 4.5"",Disco abrasivo de óxido de aluminio.,100,CONSUMIBLES,https://server.com/img/disco_corte_021.jpg"
+SKU-1022,Brocas para Concreto Set 5pcs,Set de brocas de widia para perforar hormigón.,-2,Brocas,https://server.com/img/brocas_022.jpg
+1023,Rodillo de Pintura Antigoteo,Rodillo de lana sintética de 9 pulgadas.,180,pintura,https://server.com/img/rodillo_023.jpg
+INVALID,Lona de Polietileno 3x4m,Lona impermeable y resistente a UV.,40,SEGURIDAD,NULL
+1025,Pistola de Silicona Reforzada,Pistola para cartuchos de sellador, de aluminio.,75,Herramientas,https://server.com/img/pistola_025.jpg
+1026,Cargador Batería 18V Litio,NULL,NULL,HERRAMIENTAS,https://server.com/img/cargador_026.jpg
+4532D,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores, acabado mate. Formula mejorada.,10,Pintura,https://server.com/img/pintura_027.jpg
+SKU-1028,Lijadora Roto Orbital Neumática,Lijadora de aire comprimido, alta velocidad.,30,HERRAMIENTAS MANUALES,https://server.com/img/lijadora_028.jpg
+1029,Máscara de Soldar Fotosensible,Casco automático con oscurecimiento rápido.,15,seguridad,https://server.com/img/mascara_029.jpg
+1030,Cinta de Embalaje Transparente,Cinta adhesiva de polipropileno. 48mm x 50m.,100,EMBALAJES,https://server.com/img/cinta_030.jpg
+1031,Cemento de Contacto 1/4 Galón,Adhesivo industrial de secado rápido para madera y cuero.,NULL,QUÍMICOS,https://server.com/img/cemento_031.jpg
+4532E,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores, acabado satín. Nuevo color.,13,Pinturas,https://server.com/img/pintura_032.jpg
+1033,Set de Brocas para Madera 10pcs,Brocas de acero rápido con punta de centrado.,110,Brocas,https://server.com/img/brocas_033.jpg
+NULL,Codo PVC 90 grados 1/2 pulg,Codo para fontanería de presión.,400,fontaneria,https://server.com/img/codo_034.jpg
+1035,Clavos de Acero 2 pulgadas,Caja de 1 kg de clavos lisos.,75,Fijaciones,https://server.com/img/clavos_035.jpg
+SKU-1036,Bomba Sumergible 1/2 HP,Bomba para extracción de agua limpia.,5,JARDINERÍA,https://server.com/img/bomba_036.jpg
+1037,Caja de Herramientas Plástico,Organizador de herramientas con bandeja extraíble.,22,Herramientas manuales,https://server.com/img/caja_037.jpg
+1038,Llave de Tubo 18mm,Llave de boca fija para tuercas y pernos.,90,manuales,NULL
+"1039,Lijadora de Banda 3x21"",Herramienta eléctrica de alta potencia.,15,HERRAMIENTAS,https://server.com/img/lijadora_039.jpg"
+INV-2040,Soldadora Inverter 130 Amps,Equipo compacto para soldadura ARC.,7,SOLDADURA,https://server.com/img/soldadora_040.jpg
+1041,Gafas de Seguridad Transparentes,Protección ocular contra impactos y polvo.,250,Seguridad,https://server.com/img/gafas_041.jpg
+SKU-1042,Linterna Frontal LED Recargable,Linterna para casco con múltiples modos de luz.,-1,iluminación,https://server.com/img/linterna_042.jpg
+1043,Kit de Fijación para Drywall,Tornillos y anclajes para placas de yeso.,130,FIJACIONES,https://server.com/img/kit_043.jpg
+4532F,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores, acabado mate.,NULL,Pinturas,https://server.com/img/pintura_044.jpg
+1045,Adhesivo Epóxico Bicomponente,Pegamento extra fuerte de dos partes.,160,QUÍMICOS,https://server.com/img/epoxico_045.jpg
+1046,Tijeras de Podar Bypass,Tijeras para jardinería, hoja de acero inoxidable.,60,Jardinería,https://server.com/img/tijeras_046.jpg
+1047,Nivel de Burbuja 60cm,Herramienta de medición con tres burbujas.,85,Herramientas,https://server.com/img/nivel_047.jpg
+1048,Masilla Plástica para Carrocería,Masilla de poliéster para reparación de vehículos.,25,Quimicos,https://server.com/img/masilla_048.jpg
+1049,Kit de Destornilladores Precisión,Set de 32 puntas intercambiables para electrónica.,115,manuales,https://server.com/img/kit_049.jpg
+1050,Termofusora para PPR,Máquina para soldadura de tuberías plásticas.,5,FONTANERIA,https://server.com/img/termofusora_050.jpg
+INV-2051,Cables para Soldadora 2 Metros,Cables de cobre para máquina de soldar.,35,Soldadura,https://server.com/img/cables_051.jpg
+SKU-1052,Set de Llaves Allen Milimétricas,Juego de llaves hexagonales en estuche plástico.,105,HERRAMIENTAS MANUALES,https://server.com/img/allen_052.jpg
+1053,Cerradura de Sobreponer,Cerradura para puerta de metal, incluye 3 llaves.,65,Herrajes,https://server.com/img/cerradura_053.jpg
+4532G,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores.,14,PINTURA,https://server.com/img/pintura_054.jpg
+1055,Motosierra a Gasolina 52cc,Potente motosierra para corte de leña.,3,Jardinería,https://server.com/img/motosierra_055.jpg
+1056,Cinta Aislante Eléctrica Negra,Cinta de PVC de alta resistencia a la abrasión.,500,ELECTRICIDAD,https://server.com/img/cinta_056.jpg
+1057,Medidor Digital de Humedad,Higrómetro para madera y materiales de construcción.,20,Herramientas,https://server.com/img/medidor_057.jpg
+1058,Remachadora Manual Profesional,Herramienta para colocar remaches de aluminio y acero.,60,manuales,https://server.com/img/remachadora_058.jpg
+1059,Pegamento de Poliuretano Expansivo,Espuma aislante para rellenar huecos y fisuras.,100,QUÍMICOS,https://server.com/img/poliuretano_059.jpg
+SKU-1060,Disyuntor Térmico 20 Amps,Breaker de protección contra sobrecarga y cortocircuito.,80,ELECTRICIDAD,https://server.com/img/disyuntor_060.jpg
+1061,Grifo para Lavaplatos Monomando,Grifo de cocina con caño giratorio.,28,Fontaneria,https://server.com/img/grifo_061.jpg
+4532H,Pintura Acrílica Interior 1 Galón,NULL,NULL,PINTURA,NULL
+1063,Tornillos para Madera Cabeza Plana,Tornillos de latón para carpintería fina. Caja de 500 gramos.,150,Tornillos,https://server.com/img/tornillos_063.jpg
+1064,Carretilla de Obra 65L,Carretilla con rueda neumática para transporte de materiales.,10,SEGURIDAD,https://server.com/img/carretilla_064.jpg
+1065,Aceite Lubricante Multiusos,Aceite penetrante y lubricante en spray. 400ml.,200,quimicos,https://server.com/img/aceite_065.jpg
+NULL,Motosierra Eléctrica,Motosierra con motor eléctrico de 2000W.,4,Jardinería,https://server.com/img/motosierra_066.jpg
+1067,Multímetro Digital,Instrumento para medir voltaje, corriente y resistencia.,17,Herramientas,https://server.com/img/multimetro_067.jpg
+"1068,Esmeriladora Angular 4 1/2"",Máquina para pulir y cortar metal.,25,Herramientas,https://server.com/img/esmeriladora_068.jpg"
+1069,Kit de Reparación de Neumáticos,Set para parchar llantas sin cámara.,90,manuales,https://server.com/img/kit_069.jpg
+INV-2070,Pinzas Porta Electrodo 300A,Pinzas de alta resistencia para soldadura.,40,SOLDADURA,https://server.com/img/pinzas_070.jpg
+1071,Boquilla de Riego Ajustable,Boquilla para manguera de jardín con varios patrones de riego.,110,JARDINERÍA,https://server.com/img/boquilla_071.jpg
+SKU-1072,Regulador de Voltaje 1000W,Protector contra picos de tensión y fluctuaciones.,-3,ELECTRICIDAD,https://server.com/img/regulador_072.jpg
+1073,Bisagras de Piano 1.5m,Bisagra continua de acero. Se vende por metro.,75,Herrajes,https://server.com/img/bisagra_073.jpg
+4532I,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores, acabado mate. Últimas unidades.,16,Pinturas,https://server.com/img/pintura_074.jpg
+1075,Limas para Metal Set 5pcs,Set de limas planas, redondas y triangulares.,45,manuales,https://server.com/img/limas_075.jpg
+1076,Kit de Juntas y O-Rings,Surtido de sellos de goma para reparaciones de fontanería.,200,FONTANERIA,https://server.com/img/o_rings_076.jpg
+1077,Cable Eléctrico THHN #12,Conductor de cobre para instalaciones residenciales.,NULL,ELECTRICIDAD,https://server.com/img/cable_077.jpg
+1078,Pico de Loro para Jardinería,Pala pequeña y puntiaguda para trabajar la tierra.,60,jardinería,https://server.com/img/pico_078.jpg
+1079,Sierra de Calar 500W,Herramienta para cortes curvos y detallados en madera.,20,Herramientas,NULL
+1080,Removedor de Pintura Gel,Decapante químico en formato gel. 1 Litro.,55,QUÍMICOS,https://server.com/img/removedor_080.jpg
+1081,Tuercas Hexagonales Acero Inox,NULL,300,Fijaciones,https://server.com/img/tuercas_081.jpg
+SKU-1082,Cincel SDS Plus,Cincel plano para rotomartillo.,70,HERRAMIENTAS MANUALES,https://server.com/img/cincel_082.jpg
+1083,Brocas Forstner Set 7pcs,Brocas para agujeros ciegos en madera.,35,Brocas,https://server.com/img/brocas_083.jpg
+4532J,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores, acabado mate.,11,Pintura,https://server.com/img/pintura_084.jpg
+1085,Manguera de Presión para Compresor,Manguera de 10 metros con acoples rápidos.,15,Herramientas,https://server.com/img/manguera_085.jpg
+NULL,Válvula Esférica 1/2 pulgada,Válvula de corte rápido para agua.,180,fontaneria,https://server.com/img/valvula_086.jpg
+1087,Grapadora Manual para Tapicería,Grapadora de alto impacto para telas y maderas.,40,Manuales,https://server.com/img/grapadora_087.jpg
+1088,Reflector LED de Emergencia,Reflector portátil con batería recargable.,25,ILUMINACION,https://server.com/img/reflector_088.jpg
+1089,Cerradura Cilindro Europeo,Cilindro de alta seguridad para puertas.,80,HERRAJES,https://server.com/img/cilindro_089.jpg
+INV-2090,Máscara de Gas con Filtro,Mascarilla de protección respiratoria con doble filtro.,12,SEGURIDAD,https://server.com/img/mascara_090.jpg
+1091,Sika Impermeabilizante 4kg,Mortero impermeable para exteriores.,90,QUÍMICOS,https://server.com/img/sika_091.jpg
+SKU-1092,Sierra de Mesa 10 pulgadas,Sierra estacionaria para carpintería pesada.,4,HERRAMIENTAS,https://server.com/img/sierra_092.jpg
+1093,Tornillos Autoperforantes,Caja de 1000 unidades, cabeza hexagonal.,150,fijaciones,https://server.com/img/tornillos_093.jpg
+4532K,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores.,NULL,PINTURA,https://server.com/img/pintura_094.jpg
+1095,Kit de Accesorios para Dremel,Set de 100 piezas para herramientas rotativas.,60,CONSUMIBLES,https://server.com/img/kit_095.jpg
+1096,Cepillo de Alambre Circular,Cepillo para pulir y remover óxido.,250,consumibles,https://server.com/img/cepillo_096.jpg
+1097,Sierra Caladora de Banco,Sierra de precisión para cortes complejos.,3,Herramientas,https://server.com/img/sierra_097.jpg
+1098,Destornillador Aislado VDE,Destornillador certificado para trabajos con electricidad.,85,ELECTRICIDAD,https://server.com/img/destorn_098.jpg
+1099,Regadera de Plástico 5 Litros,Regadera para plantas de jardín, color verde.,100,JARDINERÍA,https://server.com/img/regadera_099.jpg
+1100-F,Medidor Láser de Distancia 50m,Telémetro láser con funciones de área y volumen.,-8,Herramientas,https://server.com/img/medidor_100.jpg
+SKU-1101,Caja de Herramientas Metálica Grande,Caja de herramientas de acero con 5 compartimentos.,25,Herramientas manuales,https://server.com/img/caja_101.jpg
+NULL,Sierra de Sable Inalámbrica 20V,Potente sierra para demolición y corte de madera.,12,HERRAMIENTAS,https://server.com/img/sierra_102.jpg
+1103,Batería de Litio 4.0Ah 20V,Batería de alto rendimiento para herramientas eléctricas.,150,CONSUMIBLES,NULL
+77-PRM-B,Taladro Atornillador de Impacto,Taladro con función de impacto y motor sin escobillas.,-2,herramientas,https://server.com/img/atornillador_104.jpg
+SKU_1105,Candado de Combinación 40mm,Candado de latón con combinación reajustable.,200,seguridad,https://server.com/img/candado_105.jpg
+1106,Discos de Lija Grano 80 50pcs,Discos de óxido de aluminio para lijadora orbital.,400,Consumibles,https://server.com/img/discos_106.jpg
+INV-1107,Pegamento de Contacto Transparente,Adhesivo multiuso de secado rápido. 100ml.,NULL,QUÍMICOS,https://server.com/img/pegamento_107.jpg
+1108,Juego de Brocas HSS Titanio 20pcs,Brocas de acero rápido con recubrimiento de titanio para me,95,Brocas,https://server.com/img/brocas_108.jpg
+"N/A,Regulador de Presión de Agua 1/2"",Regulador para instalaciones de fontanería.,30,FONTANERIA,https://server.com/img/reg_presion_109.jpg"
+1110,Foco LED Industrial 150W,Foco de alta luminosidad para naves industriales.,50,ILUMINACION,https://server.com/img/foco_110.jpg
+"1111,Grifo de Bola PVC 1"",Válvula de esfera para control de flujo de agua.,120,fontaneria,https://server.com/img/grifo_111.jpg"
+SKU-1112,Pintura Epóxica para Pisos 1 Gl,Recubrimiento de alta resistencia para suelos de concreto.,5,PINTURA,https://server.com/img/pintura_112.jpg
+1113,Cuchilla para Cúter Industrial,Cuchillas de repuesto de alta durabilidad.,300,Consumibles,https://server.com/img/cuchilla_113.jpg
+1114-B,Arnés de Seguridad Corporal,Arnés completo de 5 puntos de anclaje.,15,SEGURIDAD,NULL
+NULL,Silicona de Alta Temperatura,Sellador de silicona para motores y hornos.,180,quimicos,https://server.com/img/silicona_115.jpg
+1116,Tornillos Cabeza Hexagonal,Tornillo estructural galvanizado.,-1,Fijaciones,https://server.com/img/tornillo_116.jpg
+1117,Bomba de Agua Periférica 1/4 HP,Bomba autocebante para uso doméstico.,8,Jardinería,https://server.com/img/bomba_117.jpg
+SKU_1118,Tubo de Cobre 3/4 pulgada,Tubo rígido para instalaciones de gas o agua.,40,FONTANERIA,https://server.com/img/tubo_118.jpg
+1119,Linterna de Mano Recargable,Linterna táctica de alto poder lumínico.,100,iluminación,https://server.com/img/linterna_119.jpg
+INV-1120,Kit de Llaves Combinadas 10pcs,Set de llaves mixtas en estuche de tela.,70,HERRAMIENTAS MANUALES,https://server.com/img/llaves_120.jpg
+SKU-1001,Martillo de Uña Curva 20oz,Martillo profesional con cabeza forjada y mango de fibra de vidrio.,45,HERRAMIENTAS MANUALES,https://server.com/img/martillo_001.jpg
+1002-A,Lijadora Orbital Bosch GEX 125-1,Lijadora excéntrica de 125 mm con velocidad ajustable.,-5,Herramientas,https://server.com/img/lijadora_002.jpg
+NULL,Kit de Tornillos y Tacos,Surtido de tornillos autorroscantes y tacos de plástic,150,Tornillos,https://server.com/img/tornillos_003.jpg
+4532B,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores, acabado mate.,12,Pintura,https://server.com/img/pintura_004.jpg
+SKU_4005,Guantes de Seguridad Nitrilo,Guantes resistentes a químicos, talla L.,120,Seguridad,https://server.com/img/guantes_005.jpg
+77-PRM,Taladro Percutor Inalámbrico,Potente taladro a batería de 18V con cargador rápido.,NULL,Herramientas,https://server.com/img/taladro_006.jpg
+1007,Manguera de Jardín Reforzada 25m,Manguera de PVC tricapa, resistente a torceduras.,90,JARDINERÍA,https://server.com/img/manguera_007.jpg
+"N/A,Sierra Circular Eléctrica 7 1/4"",Herramienta eléctrica para cortes rápidos y precisos en madera.,33,Herramientas,https://server.com/img/sierra_008.jpg"
+1009,Cinta Métrica Autoretractil 5m,Cinta de acero recubierta de nylon.,55,HERRAMIENTAS MANUALES,NULL
+SKU-1010,Bombilla LED E27 10W Blanca,Bombilla de bajo consumo, luz fría.,1000,ILUMINACION,https://server.com/img/led_010.jpg
+1011,Adhesivo Sellador de Silicona,Silicona acética para sellar juntas y fisuras. Color blanco.,145,quimicos,https://server.com/img/silicona_011.jpg
+4532C,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores, acabado satín.,NULL,Pinturas,https://server.com/img/pintura_012.jpg
+1013,Escalera Plegable Aluminio 3m,Escalera de tijera con peldaños antideslizantes.,18,SEGURIDAD,https://server.com/img/escalera_013.jpg
+1014-X,Lámpara Solar de Exterior,Foco con sensor de movimiento y panel solar integrado.,-10,iluminación,https://server.com/img/lampara_014.jpg
+SKU-1015,Candado de Seguridad Latón 50mm,Candado de arco largo, resistente a la corrosión.,95,HERRAJES,https://server.com/img/candado_015.jpg
+NULL,Pasta para Soldar Estaño,Pasta fundente para soldadura electrónica. Contiene plomo.,200,soldadura,https://server.com/img/pasta_sold_016.jpg
+9999,Nivel Láser Autonivelante,NULL,25,Herramientas,https://server.com/img/nivel_laser_017.jpg
+"1018,Llave Ajustable Cromada 12"",Herramienta manual de acero forjado y acabado cromo.,70,Manuales,https://server.com/img/llave_ajust_018.jpg"
+1019,Tubo PVC 1/2 pulgada,Tubo rígido para instalaciones eléctricas y de fontanería.,150,FONTANERIA,https://server.com/img/tubo_pvc_019.jpg
+INV-2020,Electrodos para Soldadura 6013,Electrodos de rutilo para soldadura de acero al carbono.,50,SOLDADURA,https://server.com/img/electrodos_020.jpg
+"1021,Discos de Corte para Metal 4.5"",Disco abrasivo de óxido de aluminio.,100,CONSUMIBLES,https://server.com/img/disco_corte_021.jpg"
+SKU-1022,Brocas para Concreto Set 5pcs,Set de brocas de widia para perforar hormigón.,-2,Brocas,https://server.com/img/brocas_022.jpg
+1023,Rodillo de Pintura Antigoteo,Rodillo de lana sintética de 9 pulgadas.,180,pintura,https://server.com/img/rodillo_023.jpg
+INVALID,Lona de Polietileno 3x4m,Lona impermeable y resistente a UV.,40,SEGURIDAD,NULL
+1025,Pistola de Silicona Reforzada,Pistola para cartuchos de sellador, de aluminio.,75,Herramientas,https://server.com/img/pistola_025.jpg
+1026,Cargador Batería 18V Litio,NULL,NULL,HERRAMIENTAS,https://server.com/img/cargador_026.jpg
+4532D,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores, acabado mate. Formula mejorada.,10,Pintura,https://server.com/img/pintura_027.jpg
+SKU-1028,Lijadora Roto Orbital Neumática,Lijadora de aire comprimido, alta velocidad.,30,HERRAMIENTAS MANUALES,https://server.com/img/lijadora_028.jpg
+1029,Máscara de Soldar Fotosensible,Casco automático con oscurecimiento rápido.,15,seguridad,https://server.com/img/mascara_029.jpg
+1030,Cinta de Embalaje Transparente,Cinta adhesiva de polipropileno. 48mm x 50m.,100,EMBALAJES,https://server.com/img/cinta_030.jpg
+1031,Cemento de Contacto 1/4 Galón,Adhesivo industrial de secado rápido para madera y cuero.,NULL,QUÍMICOS,https://server.com/img/cemento_031.jpg
+4532E,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores, acabado satín. Nuevo color.,13,Pinturas,https://server.com/img/pintura_032.jpg
+1033,Set de Brocas para Madera 10pcs,Brocas de acero rápido con punta de centrado.,110,Brocas,https://server.com/img/brocas_033.jpg
+NULL,Codo PVC 90 grados 1/2 pulg,Codo para fontanería de presión.,400,fontaneria,https://server.com/img/codo_034.jpg
+1035,Clavos de Acero 2 pulgadas,Caja de 1 kg de clavos lisos.,75,Fijaciones,https://server.com/img/clavos_035.jpg
+SKU-1036,Bomba Sumergible 1/2 HP,Bomba para extracción de agua limpia.,5,JARDINERÍA,https://server.com/img/bomba_036.jpg
+1037,Caja de Herramientas Plástico,Organizador de herramientas con bandeja extraíble.,22,Herramientas manuales,https://server.com/img/caja_037.jpg
+1038,Llave de Tubo 18mm,Llave de boca fija para tuercas y pernos.,90,manuales,NULL
+"1039,Lijadora de Banda 3x21"",Herramienta eléctrica de alta potencia.,15,HERRAMIENTAS,https://server.com/img/lijadora_039.jpg"
+INV-2040,Soldadora Inverter 130 Amps,Equipo compacto para soldadura ARC.,7,SOLDADURA,https://server.com/img/soldadora_040.jpg
+1041,Gafas de Seguridad Transparentes,Protección ocular contra impactos y polvo.,250,Seguridad,https://server.com/img/gafas_041.jpg
+SKU-1042,Linterna Frontal LED Recargable,Linterna para casco con múltiples modos de luz.,-1,iluminación,https://server.com/img/linterna_042.jpg
+1043,Kit de Fijación para Drywall,Tornillos y anclajes para placas de yeso.,130,FIJACIONES,https://server.com/img/kit_043.jpg
+4532F,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores, acabado mate.,NULL,Pinturas,https://server.com/img/pintura_044.jpg
+1045,Adhesivo Epóxico Bicomponente,Pegamento extra fuerte de dos partes.,160,QUÍMICOS,https://server.com/img/epoxico_045.jpg
+1046,Tijeras de Podar Bypass,Tijeras para jardinería, hoja de acero inoxidable.,60,Jardinería,https://server.com/img/tijeras_046.jpg
+1047,Nivel de Burbuja 60cm,Herramienta de medición con tres burbujas.,85,Herramientas,https://server.com/img/nivel_047.jpg
+1048,Masilla Plástica para Carrocería,Masilla de poliéster para reparación de vehículos.,25,Quimicos,https://server.com/img/masilla_048.jpg
+1049,Kit de Destornilladores Precisión,Set de 32 puntas intercambiables para electrónica.,115,manuales,https://server.com/img/kit_049.jpg
+1050,Termofusora para PPR,Máquina para soldadura de tuberías plásticas.,5,FONTANERIA,https://server.com/img/termofusora_050.jpg
+INV-2051,Cables para Soldadora 2 Metros,Cables de cobre para máquina de soldar.,35,Soldadura,https://server.com/img/cables_051.jpg
+SKU-1052,Set de Llaves Allen Milimétricas,Juego de llaves hexagonales en estuche plástico.,105,HERRAMIENTAS MANUALES,https://server.com/img/allen_052.jpg
+1053,Cerradura de Sobreponer,Cerradura para puerta de metal, incluye 3 llaves.,65,Herrajes,https://server.com/img/cerradura_053.jpg
+4532G,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores.,14,PINTURA,https://server.com/img/pintura_054.jpg
+1055,Motosierra a Gasolina 52cc,Potente motosierra para corte de leña.,3,Jardinería,https://server.com/img/motosierra_055.jpg
+1056,Cinta Aislante Eléctrica Negra,Cinta de PVC de alta resistencia a la abrasión.,500,ELECTRICIDAD,https://server.com/img/cinta_056.jpg
+1057,Medidor Digital de Humedad,Higrómetro para madera y materiales de construcción.,20,Herramientas,https://server.com/img/medidor_057.jpg
+1058,Remachadora Manual Profesional,Herramienta para colocar remaches de aluminio y acero.,60,manuales,https://server.com/img/remachadora_058.jpg
+1059,Pegamento de Poliuretano Expansivo,Espuma aislante para rellenar huecos y fisuras.,100,QUÍMICOS,https://server.com/img/poliuretano_059.jpg
+SKU-1060,Disyuntor Térmico 20 Amps,Breaker de protección contra sobrecarga y cortocircuito.,80,ELECTRICIDAD,https://server.com/img/disyuntor_060.jpg
+1061,Grifo para Lavaplatos Monomando,Grifo de cocina con caño giratorio.,28,Fontaneria,https://server.com/img/grifo_061.jpg
+4532H,Pintura Acrílica Interior 1 Galón,NULL,NULL,PINTURA,NULL
+1063,Tornillos para Madera Cabeza Plana,Tornillos de latón para carpintería fina. Caja de 500 gramos.,150,Tornillos,https://server.com/img/tornillos_063.jpg
+1064,Carretilla de Obra 65L,Carretilla con rueda neumática para transporte de materiales.,10,SEGURIDAD,https://server.com/img/carretilla_064.jpg
+1065,Aceite Lubricante Multiusos,Aceite penetrante y lubricante en spray. 400ml.,200,quimicos,https://server.com/img/aceite_065.jpg
+NULL,Motosierra Eléctrica,Motosierra con motor eléctrico de 2000W.,4,Jardinería,https://server.com/img/motosierra_066.jpg
+1067,Multímetro Digital,Instrumento para medir voltaje, corriente y resistencia.,17,Herramientas,https://server.com/img/multimetro_067.jpg
+"1068,Esmeriladora Angular 4 1/2"",Máquina para pulir y cortar metal.,25,Herramientas,https://server.com/img/esmeriladora_068.jpg"
+1069,Kit de Reparación de Neumáticos,Set para parchar llantas sin cámara.,90,manuales,https://server.com/img/kit_069.jpg
+INV-2070,Pinzas Porta Electrodo 300A,Pinzas de alta resistencia para soldadura.,40,SOLDADURA,https://server.com/img/pinzas_070.jpg
+1071,Boquilla de Riego Ajustable,Boquilla para manguera de jardín con varios patrones de riego.,110,JARDINERÍA,https://server.com/img/boquilla_071.jpg
+SKU-1072,Regulador de Voltaje 1000W,Protector contra picos de tensión y fluctuaciones.,-3,ELECTRICIDAD,https://server.com/img/regulador_072.jpg
+1073,Bisagras de Piano 1.5m,Bisagra continua de acero. Se vende por metro.,75,Herrajes,https://server.com/img/bisagra_073.jpg
+4532I,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores, acabado mate. Últimas unidades.,16,Pinturas,https://server.com/img/pintura_074.jpg
+1075,Limas para Metal Set 5pcs,Set de limas planas, redondas y triangulares.,45,manuales,https://server.com/img/limas_075.jpg
+1076,Kit de Juntas y O-Rings,Surtido de sellos de goma para reparaciones de fontanería.,200,FONTANERIA,https://server.com/img/o_rings_076.jpg
+1077,Cable Eléctrico THHN #12,Conductor de cobre para instalaciones residenciales.,NULL,ELECTRICIDAD,https://server.com/img/cable_077.jpg
+1078,Pico de Loro para Jardinería,Pala pequeña y puntiaguda para trabajar la tierra.,60,jardinería,https://server.com/img/pico_078.jpg
+1079,Sierra de Calar 500W,Herramienta para cortes curvos y detallados en madera.,20,Herramientas,NULL
+1080,Removedor de Pintura Gel,Decapante químico en formato gel. 1 Litro.,55,QUÍMICOS,https://server.com/img/removedor_080.jpg
+1081,Tuercas Hexagonales Acero Inox,NULL,300,Fijaciones,https://server.com/img/tuercas_081.jpg
+SKU-1082,Cincel SDS Plus,Cincel plano para rotomartillo.,70,HERRAMIENTAS MANUALES,https://server.com/img/cincel_082.jpg
+1083,Brocas Forstner Set 7pcs,Brocas para agujeros ciegos en madera.,35,Brocas,https://server.com/img/brocas_083.jpg
+4532J,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores, acabado mate.,11,Pintura,https://server.com/img/pintura_084.jpg
+1085,Manguera de Presión para Compresor,Manguera de 10 metros con acoples rápidos.,15,Herramientas,https://server.com/img/manguera_085.jpg
+NULL,Válvula Esférica 1/2 pulgada,Válvula de corte rápido para agua.,180,fontaneria,https://server.com/img/valvula_086.jpg
+1087,Grapadora Manual para Tapicería,Grapadora de alto impacto para telas y maderas.,40,Manuales,https://server.com/img/grapadora_087.jpg
+1088,Reflector LED de Emergencia,Reflector portátil con batería recargable.,25,ILUMINACION,https://server.com/img/reflector_088.jpg
+1089,Cerradura Cilindro Europeo,Cilindro de alta seguridad para puertas.,80,HERRAJES,https://server.com/img/cilindro_089.jpg
+INV-2090,Máscara de Gas con Filtro,Mascarilla de protección respiratoria con doble filtro.,12,SEGURIDAD,https://server.com/img/mascara_090.jpg
+1091,Sika Impermeabilizante 4kg,Mortero impermeable para exteriores.,90,QUÍMICOS,https://server.com/img/sika_091.jpg
+SKU-1092,Sierra de Mesa 10 pulgadas,Sierra estacionaria para carpintería pesada.,4,HERRAMIENTAS,https://server.com/img/sierra_092.jpg
+1093,Tornillos Autoperforantes,Caja de 1000 unidades, cabeza hexagonal.,150,fijaciones,https://server.com/img/tornillos_093.jpg
+4532K,Pintura Acrílica Interior 1 Galón,Pintura base agua para interiores.,NULL,PINTURA,https://server.com/img/pintura_094.jpg
+1095,Kit de Accesorios para Dremel,Set de 100 piezas para herramientas rotativas.,60,CONSUMIBLES,https://server.com/img/kit_095.jpg
+1096,Cepillo de Alambre Circular,Cepillo para pulir y remover óxido.,250,consumibles,https://server.com/img/cepillo_096.jpg
+1097,Sierra Caladora de Banco,Sierra de precisión para cortes complejos.,3,Herramientas,https://server.com/img/sierra_097.jpg
+1098,Destornillador Aislado VDE,Destornillador certificado para trabajos con electricidad.,85,ELECTRICIDAD,https://server.com/img/destorn_098.jpg
+1099,Regadera de Plástico 5 Litros,Regadera para plantas de jardín, color verde.,100,JARDINERÍA,https://server.com/img/regadera_099.jpg
+1100-F,Medidor Láser de Distancia 50m,Telémetro láser con funciones de área y volumen.,-8,Herramientas,https://server.com/img/medidor_100.jpg
+SKU-1101,Caja de Herramientas Metálica Grande,Caja de herramientas de acero con 5 compartimentos.,25,Herramientas manuales,https://server.com/img/caja_101.jpg
+NULL,Sierra de Sable Inalámbrica 20V,Potente sierra para demolición y corte de madera.,12,HERRAMIENTAS,https://server.com/img/sierra_102.jpg
+1103,Batería de Litio 4.0Ah 20V,Batería de alto rendimiento para herramientas eléctricas.,150,CONSUMIBLES,NULL
+77-PRM-B,Taladro Atornillador de Impacto,Taladro con función de impacto y motor sin escobillas.,-2,herramientas,https://server.com/img/atornillador_104.jpg
+SKU_1105,Candado de Combinación 40mm,Candado de latón con combinación reajustable.,200,seguridad,https://server.com/img/candado_105.jpg
+1106,Discos de Lija Grano 80 50pcs,Discos de óxido de aluminio para lijadora orbital.,400,Consumibles,https://server.com/img/discos_106.jpg
+INV-1107,Pegamento de Contacto Transparente,Adhesivo multiuso de secado rápido. 100ml.,NULL,QUÍMICOS,https://server.com/img/pegamento_107.jpg
+1108,Juego de Brocas HSS Titanio 20pcs,Brocas de acero rápido con recubrimiento de titanio para me,95,Brocas,https://server.com/img/brocas_108.jpg
+"N/A,Regulador de Presión de Agua 1/2"",Regulador para instalaciones de fontanería.,30,FONTANERIA,https://server.com/img/reg_presion_109.jpg"
+1110,Foco LED Industrial 150W,Foco de alta luminosidad para naves industriales.,50,ILUMINACION,https://server.com/img/foco_110.jpg
+"1111,Grifo de Bola PVC 1"",Válvula de esfera para control de flujo de agua.,120,fontaneria,https://server.com/img/grifo_111.jpg"
+SKU-1112,Pintura Epóxica para Pisos 1 Galón,Recubrimiento de alta resistencia para suelos de concreto.,5,PINTURA,https://server.com/img/pintura_112.jpg
+1113,Cuchilla para Cúter Industrial,Cuchillas de repuesto de alta durabilidad.,300,Consumibles,https://server.com/img/cuchilla_113.jpg
+1114-B,Arnés de Seguridad Corporal,Arnés completo de 5 puntos de anclaje.,15,SEGURIDAD,NULL
+NULL,Silicona de Alta Temperatura,Sellador de silicona para motores y hornos.,180,quimicos,https://server.com/img/silicona_115.jpg
+1116,Tornillos Cabeza Hexagonal,Tornillo estructural galvanizado.,-1,Fijaciones,https://server.com/img/tornillo_116.jpg
+1117,Bomba de Agua Periférica 1/4 HP,Bomba autocebante para uso doméstico.,8,Jardinería,https://server.com/img/bomba_117.jpg
+SKU_1118,Tubo de Cobre 3/4 pulgada,Tubo rígido para instalaciones de gas o agua.,40,FONTANERIA,https://server.com/img/tubo_118.jpg
+1119,Linterna de Mano Recargable,Linterna táctica de alto poder lumínico.,100,iluminación,https://server.com/img/linterna_119.jpg
+INV-1120,Kit de Llaves Combinadas 10pcs,Set de llaves mixtas en estuche de tela.,70,HERRAMIENTAS MANUALES,https://server.com/img/llaves_120.jpg
+1121,Pistola de Calor Eléctrica 2000W,Herramienta para termocontracción y decapado de pintura.,20,Herramientas,https://server.com/img/pistola_121.jpg
+1122,Adhesivo Instantáneo Cianoacrilato,Pegamento líquido de secado rápido.,250,QUÍMICOS,https://server.com/img/adhesivo_122.jpg
+4532L,Pintura Caucho Clorado Piscinas,Pintura impermeable para piscinas. Color azul.,8,Pinturas,https://server.com/img/pintura_123.jpg
+1124,Set de Brocas Escalonadas HSS,Brocas cónicas para perforar lámina metálica.,50,Brocas,https://server.com/img/brocas_124.jpg
+1125,Válvula de Flotador para Tanque,Válvula para el control automático del nivel de agua.,95,fontaneria,https://server.com/img/valvula_125.jpg
+SKU-1126,Sensor de Movimiento PIR Exterior,Detector de movimiento para activar luces de seguridad.,-5,ELECTRICIDAD,https://server.com/img/sensor_126.jpg
+1127,Candado de Cable Bici/Moto,Candado de cable de acero trenzado con cerradura de llave.,110,seguridad,https://server.com/img/candado_127.jpg
+NULL,Malla Sombra Raschel 90% 4x5m,Malla para protección solar en jardines y cultivos.,15,JARDINERÍA,https://server.com/img/malla_128.jpg
+1129,Eslinga de Amarre con Matraca 5m,Cinta de poliéster para asegurar carga pesada.,65,SEGURIDAD,NULL
+INV-1130,Set de Pinceles y Brochas Pintura,Variedad de tamaños para acabados finos.,130,CONSUMIBLES,https://server.com/img/pinceles_130.jpg
+1131,Sellador Acrílico para Concreto,Sellador transparente que protege y da brillo al concreto.,NULL,QUÍMICOS,https://server.com/img/sellador_131.jpg
+4532M,Pintura Base Agua Mate 1 Galón,Pintura de calidad estándar para interiores.,19,Pintura,https://server.com/img/pintura_132.jpg
+1133,Taladro de Columna de Banco 1/2HP,Taladro estacionario para perforaciones precisas.,4,HERRAMIENTAS,https://server.com/img/taladro_133.jpg
+"1134,Conector Rápido Manguera 1/2"",Acople de plástico para manguera de jardín.,250,Jardinería,https://server.com/img/conector_134.jpg"
+SKU_1135,Tornillos para Lámina Punta Fina,Caja de 500 unidades para techado ligero.,180,Fijaciones,https://server.com/img/tornillo_135.jpg
+1136,Lámpara Colgante Vintage,Lámpara de techo estilo industrial con acabado metálico.,30,iluminación,https://server.com/img/lampara_136.jpg
+NULL,Interruptor de Pared Triple,Interruptor modular de tres vías.,90,ELECTRICIDAD,https://server.com/img/interruptor_137.jpg
+1138,Destornillador Phillips #2 Aislado,Herramienta manual certificada VDE.,65,HERRAMIENTAS MANUALES,https://server.com/img/destorn_138.jpg
+1139,Cerradura de Palanca para Interior,Pomo con cerradura para puerta de dormitorio.,70,Herrajes,https://server.com/img/cerradura_139.jpg
+INV-1140,Bomba de Achique Sumergible 1HP,Bomba para drenar sótanos y áreas inundadas.,3,FONTANERIA,https://server.com/img/bomba_140.jpg
+1141,Pintura Spray Negro Mate,Aerosol de secado rápido para metal y madera.,200,pintura,https://server.com/img/spray_141.jpg
+SKU-1142,Botas de Seguridad Puntera Acero,Botas de cuero con suela antideslizante.,15,SEGURIDAD,https://server.com/img/botas_142.jpg
+"1143,Juego de Dados y Matracas 1/2"",Set de 24 piezas de herramientas mecánicas.,40,Manuales,https://server.com/img/dados_143.jpg"
+4532N,Pintura Exterior Acrílica 1 Galón,Pintura base agua para fachadas.,22,PINTURAS,https://server.com/img/pintura_144.jpg
+1145,Cable UTP Cat 6 305m,Cable de red Ethernet para instalaciones de datos.,NULL,ELECTRICIDAD,https://server.com/img/cable_145.jpg
+1146,Removedor de Óxido Líquido,Producto químico para disolver el óxido en metales.,80,QUÍMICOS,https://server.com/img/removedor_146.jpg
+1147,Set de Sierra Copa Bimetálica,Brocas de corona para madera y metal.,35,Brocas,https://server.com/img/sierra_copa_147.jpg
+1148,Aspersor de Impacto para Riego,Aspersor de metal para cobertura de área grande.,55,jardinería,https://server.com/img/aspersor_148.jpg
+1149,Cinta de Teflón para Roscas,Cinta selladora para conexiones de fontanería.,500,FONTANERIA,https://server.com/img/teflon_149.jpg
+1150-T,Reflector LED Slim 50W Exterior,Foco delgado para iluminación de fachadas.,90,ILUMINACION,https://server.com/img/reflector_150.jpg
+"NULL,Manguera de Presión 1/4"" para Pintura,Manguera para pistolas de pintura de alta presión.,10,Consumibles,NULL"
+SKU-1152,Kit de Reparación de Fibra de Vidrio,Resina y catalizador para reparaciones automotrices.,20,quimicos,https://server.com/img/kit_fibra_152.jpg
+"1153,Banda de Lija para Lijadora 3x21"",Set de 10 bandas abrasivas grano 100.,100,CONSUMIBLES,https://server.com/img/banda_lija_153.jpg"
+4532O,Pintura Vinílica Económica 1 Galón,Pintura de bajo costo para recubrimientos básicos.,15,PINTURAS,https://server.com/img/pintura_154.jpg
+1155,Llave Fija Doble Boca 10/11mm,Herramienta manual de doble extremo.,70,Manuales,https://server.com/img/llave_fija_155.jpg
+1156,Kit de Brocas SDS Max 4pcs,Brocas pesadas para martillos perforadores.,-7,Brocas,https://server.com/img/brocas_156.jpg
+1157,Medidor de Distancia Ultrasónico,Medidor de área y volumen con tecnología sónica.,30,Herramientas,https://server.com/img/medidor_157.jpg
+1158,Lupa de Soporte con Iluminación,Lente de aumento para trabajos de precisión y soldadura.,45,ILUMINACION,https://server.com/img/lupa_158.jpg
+1159,Conector Macho PEX 1/2 pulgada,Conector para tubería PEX.,300,fontaneria,https://server.com/img/conector_159.jpg
+INV-1160,Kit de Soldadura Portátil Gas,Mini soplete a gas butano para soldadura ligera.,50,SOLDADURA,https://server.com/img/soldadura_160.jpg
+1161,Guantes de Cuero para Soldador,Guantes largos resistentes al calor y las chispas.,60,Seguridad,https://server.com/img/guantes_161.jpg
+SKU-1162,Cerradura de Alta Seguridad Multipunto,Cerradura con varios puntos de anclaje para puertas blindadas.,20,HERRAJES,https://server.com/img/cerradura_162.jpg
+4532P,Pintura Impermeabilizante Techo,Recubrimiento acrílico para techos, color blanco.,10,Pinturas,https://server.com/img/pintura_163.jpg
+1164,Set de Formones para Madera 6pcs,Herramientas de corte para tallado y carpintería.,40,HERRAMIENTAS MANUALES,https://server.com/img/formones_164.jpg
+"1165,Discos de Diamante para Cerámica 4"",Disco de corte fino para azulejos y cerámica.,120,consumibles,https://server.com/img/disco_165.jpg"
+NULL,Adhesivo Monta-Todo Profesional,Pegamento de agarre inmediato para construcción.,NULL,QUÍMICOS,https://server.com/img/adhesivo_166.jpg
+1167,Cable Coaxial RG-6 100m,Cable para instalaciones de televisión y satélite.,50,ELECTRICIDAD,https://server.com/img/cable_167.jpg
+1168,Mochila para Herramientas Reforzada,Mochila con múltiples bolsillos y base impermeable.,18,Herramientas,https://server.com/img/mochila_168.jpg
+1169,Set de Brocas para Vidrio y Azulejo,Brocas con punta de carburo especiales.,75,Brocas,https://server.com/img/brocas_169.jpg
+INV-1170,Bomba de Drenaje para Condensados,Bomba para aires acondicionados y calderas.,15,Fontaneria,https://server.com/img/bomba_170.jpg
+1171,Fertilizante Granulado NPK 1kg,Abono completo para jardinería.,300,JARDINERÍA,https://server.com/img/fertilizante_171.jpg
+SKU-1172,Tirador de Puerta Acero Inoxidable,Manija de diseño moderno para puertas interiores.,95,Herrajes,https://server.com/img/tirador_172.jpg
+4532Q,Pintura Base Agua Mate 1 Galón,Pintura interior de secado rápido. Color rojo.,17,Pintura,https://server.com/img/pintura_173.jpg
+1174,Lámpara Fluorescente Circular 32W,Tubo circular para luminarias de techo.,80,ILUMINACION,https://server.com/img/fluorescente_174.jpg
+1175,Cuchilla para Cepillo Eléctrico,Cuchillas de repuesto para cepilladoras de madera.,40,Consumibles,https://server.com/img/cuchilla_175.jpg
+NULL,Manguera de Aire Comprimido 15m,Manguera con acoples rápidos para compresor.,NULL,Herramientas,https://server.com/img/manguera_176.jpg
+1177,Rodillo de Textura para Pintura,Rodillo con diseño para crear acabados decorativos.,55,pintura,https://server.com/img/rodillo_177.jpg
+1178,Adhesivo de Montaje Sin Clavos,Pegamento de alta resistencia para fijaciones pesadas.,130,QUÍMICOS,https://server.com/img/adhesivo_178.jpg
+"1179,Tuerca Mariposa Galvanizada 1/4"",Tuerca de fácil manipulación.,400,Fijaciones,https://server.com/img/tuerca_179.jpg"
+INV-1180,Caja de Derivación PVC Exterior,Caja resistente al agua y UV para instalaciones eléctricas.,75,ELECTRICIDAD,https://server.com/img/caja_180.jpg
+1181,Candado de Disco para Moto/Bici,Candado de seguridad compacto para freno de disco.,50,seguridad,https://server.com/img/candado_181.jpg
+SKU-1182,Cargador Universal USB Pared,Cargador con múltiples puertos USB para dispositivos.,150,ELECTRICIDAD,https://server.com/img/cargador_182.jpg
+4532R,Pintura Spray Cromo Brillante,Aerosol de alto brillo con efecto cromo.,-4,Pinturas,https://server.com/img/spray_183.jpg
+1184,Escuadra de Carpintero 30cm,Herramienta de medición y trazado.,80,HERRAMIENTAS MANUALES,https://server.com/img/escuadra_184.jpg
+1185,Kit de Soldadura de Estaño Electrónica,Cautín de lápiz y carrete de estaño.,35,SOLDADURA,https://server.com/img/cautin_185.jpg
+NULL,Bandeja de Pintura Plástica,Bandeja para rodillos de hasta 9 pulgadas.,120,Consumibles,https://server.com/img/bandeja_186.jpg
+"1187,Válvula Solenoide de Riego 3/4"",Válvula eléctrica para sistemas de riego automáticos.,25,JARDINERÍA,https://server.com/img/valvula_187.jpg"
+"1188,Llave de Paso Angular 1/2"",Llave de corte para sanitarios y lavamanos.,110,fontaneria,https://server.com/img/llave_paso_188.jpg"
+1189,Lijadora Mouse para Detalle,Lijadora eléctrica con base triangular para esquinas.,18,Herramientas,https://server.com/img/lijadora_189.jpg
+"INV-1190,Sierra de Inglete Telescópica 12"",Sierra para cortes angulares de alta precisión.,2,HERRAMIENTAS,NULL"
+1191,Set de Brocas Saca Núcleos Diamante,Brocas para perforar porcelanato y mármol.,45,Brocas,https://server.com/img/brocas_191.jpg
+SKU-1192,Tornillos para Madera Recubrimiento,Tornillos resistentes a la intemperie.,200,fijaciones,https://server.com/img/tornillo_192.jpg
+4532S,Pintura Base Agua Mate 1 Galón,NULL,NULL,PINTURA,https://server.com/img/pintura_193.jpg
+1194,Cinta Delimitadora de Peligro,Cinta amarilla y negra de alta visibilidad.,90,SEGURIDAD,https://server.com/img/cinta_pel_194.jpg
+1195,Sello de Goma para Puertas y Ventanas,Burlete autoadhesivo para aislar.,150,HERRAJES,https://server.com/img/sello_195.jpg
+NULL,Adhesivo de Contacto Neopreno,Pegamento líquido para caucho y cuero.,100,quimicos,https://server.com/img/adhesivo_196.jpg
+1197,Interruptor Termomagnético 10 Amps,Breaker de protección para circuitos de baja potencia.,70,ELECTRICIDAD,https://server.com/img/breaker_197.jpg
+1198,Linterna de Trabajo LED Plegable,Linterna con base magnética y gancho de suspensión.,40,ILUMINACION,https://server.com/img/linterna_198.jpg
+1199,Juego de Llaves Allen con Mango,Llaves hexagonales ergonómicas.,60,Manuales,https://server.com/img/allen_199.jpg
+"1200-Z,Tubo Flexible para Gas 1/2"",Tubo corrugado de acero inoxidable para instalaciones de gas.,25,FONTANERIA,https://server.com/img/tubo_200.jpg"
+SKU-1201,Set de Brocas SDS Plus para Mampostería,Juego de brocas para taladro percutor.,85,Brocas,https://server.com/img/brocas_201.jpg
+1202,Soldadura de Estaño en Rollo 500g,Soldadura con núcleo de fundente para electrónica.,50,SOLDADURA,https://server.com/img/estaño_202.jpg
+4532T,Pintura Anticorrosiva Base Aceite,Pintura protectora para metales expuestos.,14,PINTURAS,https://server.com/img/anticorrosiva_203.jpg
+1204,Manguera de Succión 2 Pulgadas,Manguera reforzada para bombas de agua.,8,JARDINERÍA,https://server.com/img/manguera_204.jpg
+1205,Arco de Sierra para Metales,Sierra manual con hoja de repuesto.,95,HERRAMIENTAS MANUALES,https://server.com/img/arco_sierra_205.jpg
+NULL,Rueda para Carretilla Neumática,Rueda de repuesto con eje y balineras.,15,SEGURIDAD,https://server.com/img/rueda_206.jpg
+"1207,Discos de Corte Diamantados 7"",Disco para cortar concreto, ladrillo y piedra.,75,CONSUMIBLES,https://server.com/img/disco_207.jpg"
+1208,Pegamento para PVC Rígido,Adhesivo líquido para tuberías de fontanería.,130,quimicos,https://server.com/img/pegamento_208.jpg
+1209,Cinta Doble Cara Extra Fuerte,Cinta de espuma acrílica para montaje sin tornillos.,200,FIJACIONES,https://server.com/img/cinta_209.jpg
+INV-1210,Guantes de Jardinería con Garras,Guantes con puntas plásticas para cavar y plantar.,60,Jardinería,https://server.com/img/guantes_210.jpg
+1211,Reflector LED para Carril 30W,Foco ajustable para sistemas de iluminación de riel.,40,iluminación,https://server.com/img/reflector_211.jpg
+SKU-1212,Termómetro Infrarrojo Digital,Termómetro sin contacto para medir superficies.,25,Herramientas,https://server.com/img/termometro_212.jpg
+4532U,Pintura Base Agua Mate 1 Galón,Pintura de interior lavable. Color amarillo.,16,Pintura,https://server.com/img/pintura_213.jpg
+1214,Set de Llaves Torx con Punta,Juego de llaves en forma de estrella.,85,Manuales,https://server.com/img/torx_214.jpg
+1215,Conector Eléctrico Rápido Wago,Terminal de conexión rápida para cables.,300,ELECTRICIDAD,NULL
+NULL,Pasta Abrasiva para Pulido de Metales,Pasta para restaurar el brillo de superficies metálicas.,100,CONSUMIBLES,https://server.com/img/pasta_216.jpg
+1217,Tubo LED T8 18W 1.2m,Tubo fluorescente LED de bajo consumo.,150,ILUMINACION,https://server.com/img/tubo_led_217.jpg
+1218,Cerradura Cilindro para Buzón,Cerradura pequeña para gabinetes y buzones.,120,Herrajes,https://server.com/img/cerradura_218.jpg
+1219,Juego de Machos y Terrajas Métricas,Herramientas para roscar tornillos y tuercas.,30,HERRAMIENTAS,https://server.com/img/machos_219.jpg
+INV-1220,Codo PVC Sanitario 4 Pulgadas,Codo de gran diámetro para desagües.,50,FONTANERIA,https://server.com/img/codo_220.jpg
+1221,Tornillos de Anclaje para Concreto,Pernos de expansión para fijaciones pesadas.,90,Fijaciones,https://server.com/img/anclaje_221.jpg
+SKU-1222,Impermeabilizante Acrílico Fibra,Recubrimiento elástico con fibras, 5 años de garantía.,5,QUÍMICOS,https://server.com/img/impermeab_222.jpg
+4532V,Pintura de Pizarrón Negro,Pintura especial para crear superficies de escritura.,-1,Pinturas,https://server.com/img/pizarron_223.jpg
+"1224,Válvula Reguladora de Gas 1/2"",Válvula de seguridad para instalaciones de gas doméstico.,65,fontaneria,https://server.com/img/valvula_224.jpg"
+1225,Machete de Monte 18 pulgadas,Herramienta de corte para agricultura y jardinería.,35,JARDINERÍA,https://server.com/img/machete_225.jpg
+NULL,Detector de Humo Fotoeléctrico,Alarma de humo con sensor óptico.,70,SEGURIDAD,https://server.com/img/detector_226.jpg
+1227,Sierra de Vaivén (Jigsaw) 600W,Herramienta para cortes curvos y rectos en madera y metal.,15,HERRAMIENTAS,https://server.com/img/jigsaw_227.jpg
+1228,Cinta Aislante para Tuberías HVAC,Cinta de espuma para aislar conductos de aire.,80,Consumibles,https://server.com/img/cinta_228.jpg
+1229,Destornillador de Impacto Manual,Herramienta para aflojar tornillos muy apretados.,45,Manuales,https://server.com/img/destorn_229.jpg
+INV-1230,Set de Brocas para Router 12pcs,Fresa para router para perfiles y ranuras en madera.,50,Brocas,https://server.com/img/fresas_230.jpg
+1231,Termostato Mecánico para Calentador,Controlador de temperatura para calentadores de agua.,90,ELECTRICIDAD,https://server.com/img/termostato_231.jpg
+SKU-1232,Aceite para Motores 4 Tiempos 1L,Aceite sintético para herramientas a gasolina.,120,quimicos,https://server.com/img/aceite_232.jpg
+4532W,Pintura Base Agua Mate 1 Galón,Pintura que cubre en una sola capa.,19,Pintura,https://server.com/img/pintura_233.jpg
+1234,Manija y Pomo para Muebles Set 10pcs,Tiradores de gabinete de acero inoxidable.,150,HERRAJES,https://server.com/img/manijas_234.jpg
+"1235,Tornillo Drywall Punta Fina 1"",Caja de 1000 unidades para placa de yeso.,NULL,fijaciones,https://server.com/img/tornillo_235.jpg"
+"NULL,Set de Grifos de Jardín 1/2"",Grifos de bola para mangueras y exteriores.,110,Jardinería,https://server.com/img/grifos_236.jpg"
+1237,Cinta LED 5 Metros Luz Cálida,Tira de LED flexible con adhesivo.,70,ILUMINACION,https://server.com/img/cinta_led_237.jpg
+1238,Electrobomba Centrífuga 1 HP,Bomba para transferencia de fluidos limpios.,4,FONTANERIA,https://server.com/img/electrobomba_238.jpg
+1239,Medidor de Ángulos Digital,Transportador digital con pantalla LCD.,20,Herramientas,https://server.com/img/medidor_239.jpg
+INV-1240,Kit de Soldadura TIG Inverter,Equipo de soldadura de arco con tecnología TIG.,3,SOLDADURA,NULL
+1241,Arnés de Sujeción para Trabajo en Altura,Cinturón y arnés de seguridad con cuerda.,10,SEGURIDAD,https://server.com/img/arnes_241.jpg
+SKU-1242,Cepillo Eléctrico para Madera 800W,Herramienta para alisar y rebajar madera.,12,HERRAMIENTAS,https://server.com/img/cepillo_242.jpg
+4532X,Pintura Base Agua Mate 1 Galón,Pintura con acabado satinado. Color azul claro.,18,Pinturas,https://server.com/img/pintura_243.jpg
+"1244,Llave Inglesa Tipo Stillson 18"",Llave de fontanería para tuberías de gran diámetro.,30,Manuales,https://server.com/img/stillson_244.jpg"
+1245,Adhesivo de Poliuretano Marino,Pegamento resistente al agua salada.,150,QUÍMICOS,https://server.com/img/poliuretano_245.jpg
+"NULL,Disco de Corte para Azulejos 4"",Disco de diamante continuo para porcelanato.,100,CONSUMIBLES,https://server.com/img/disco_246.jpg"
+1247,Conector Eléctrico Tipo Enchufe Hembra,Enchufe hembra para extensiones y aparatos.,250,ELECTRICIDAD,https://server.com/img/enchufe_247.jpg
+1248,Juego de Brocas Avellanadoras,Brocas para crear orificios de cabeza embutida.,60,Brocas,https://server.com/img/avellanadoras_248.jpg
+1249,Set de Accesorios para Compresor,Manguera, pistola de aire y acoples rápidos.,45,Herramientas,https://server.com/img/set_compresor_249.jpg
+INV-1250,Regadera de Riego con Difusor,Regadera de mano con cabeza de riego fina.,90,JARDINERÍA,https://server.com/img/regadera_250.jpg
+1251,Lámpara LED con Sensor de Movimiento,Luz de techo con detección de presencia.,70,ILUMINACION,https://server.com/img/lampara_251.jpg
+SKU-1252,Tornillos para Metal Punta Broca,Tornillos autorroscantes con punta de taladro.,300,Fijaciones,https://server.com/img/tornillo_252.jpg
+4532Y,Pintura para Tráfico Vial,Pintura de secado rápido para marcar carreteras.,-2,PINTURA,https://server.com/img/trafico_253.jpg
+1254,Cerradura de Pomo con Llave,Pomo de puerta de entrada con cilindro de seguridad.,80,HERRAJES,https://server.com/img/pomo_254.jpg
+1255,Kit de Juntas Tórica Surtidas,O-rings de goma para fontanería y mecánica.,200,FONTANERIA,NULL
+NULL,Clavos de Acero 3 Pulgadas,Clavos para madera dura y construcción.,150,fijaciones,https://server.com/img/clavos_256.jpg
+1257,Multímetro Analógico Básico,Medidor de voltaje y resistencia de aguja.,40,Herramientas,https://server.com/img/multimetro_257.jpg
+1258,Rodillo de Goma para Empapelado,Rodillo para presionar y alisar papel tapiz.,65,Manuales,https://server.com/img/rodillo_258.jpg
+1259,Set de Cables Puente para Batería,Cables para arrancar vehículos.,30,ELECTRICIDAD,https://server.com/img/cables_259.jpg
+INV-1260,Adhesivo para Cerámica y Porcelanato,Pegamento para azulejos de alto rendimiento.,180,QUÍMICOS,https://server.com/img/adhesivo_260.jpg
+1261,Set de Brocas Sierra Copa HSS,Brocas corona para cortes circulares en metal.,35,Brocas,https://server.com/img/sierra_copa_261.jpg
+SKU-1262,Cinta Antideslizante para Escaleras,Cinta de seguridad para prevención de caídas.,70,SEGURIDAD,https://server.com/img/cinta_262.jpg
+4532Z,Pintura Base Agua Mate 1 Galón,Pintura con recubrimiento lavable.,17,Pinturas,https://server.com/img/pintura_263.jpg
+"1264,Llave de Carraca Reversible 1/4"",Matraca pequeña para espacios reducidos.,55,HERRAMIENTAS MANUALES,https://server.com/img/carraca_264.jpg"
+1265,Lijadora de Detalle con Accesorios,Herramienta eléctrica para trabajos finos.,25,Herramientas,https://server.com/img/lijadora_265.jpg
+"NULL,Manguera Plana para Drenaje 2"",Manguera enrollable para vaciado de piscinas o fosas.,12,JARDINERÍA,https://server.com/img/manguera_266.jpg"
+"1267,Ventilador Extractor de Baño 4"",Extractor para humedad y malos olores.,40,FONTANERIA,https://server.com/img/extractor_267.jpg"
+1268,Kit de Herramientas de Precisión 60pcs,Set de puntas para reparación de celulares y laptops.,90,Manuales,https://server.com/img/kit_268.jpg
+1269,Tubo Corrugado para Cableado Eléctrico,Tubo flexible protector para cables.,150,ELECTRICIDAD,https://server.com/img/tubo_269.jpg
+INV-1270,Pintura Fluorescente Spray Verde,Aerosol para señalización temporal.,80,Pintura,https://server.com/img/spray_270.jpg
+1271,Adhesivo de Contacto Multiusos 1 Galón,Pegamento industrial para madera, cuero y tela.,NULL,quimicos,https://server.com/img/adhesivo_271.jpg
+SKU-1272,Tornillos Cabeza Plana Avellanada,Tornillos para madera con acabado oculto.,200,FIJACIONES,https://server.com/img/tornillo_272.jpg
+4533A,Pintura Vinílica Interior 1 Galón,Pintura con bajo olor. Color gris.,19,PINTURA,https://server.com/img/pintura_273.jpg
+1274,Lámpara de Emergencia Recargable LED,Luz de respaldo con batería de larga duración.,35,ILUMINACION,https://server.com/img/lampara_274.jpg
+1275,Set de Brocas para Metal HSS 13pcs,Brocas de acero rápido para perforar metales.,50,Brocas,NULL
+NULL,Guantes de Protección Anticorte Nivel 5,Guantes de seguridad con fibras de aramida.,60,Seguridad,https://server.com/img/guantes_276.jpg
+1277,Medidor de Espesores Digital,Calibrador vernier digital para alta precisión.,15,Herramientas,https://server.com/img/calibrador_277.jpg
+1278,Cincel SDS Max para Hormigón,Cincel de punta para demolición pesada.,25,HERRAMIENTAS,https://server.com/img/cincel_278.jpg
+1279,Soldadura para Tubería de Cobre SIN Plomo,Aleación de soldadura ecológica.,90,SOLDADURA,https://server.com/img/soldadura_279.jpg
+INV-1280,Codo de Cobre 90 Grados 1/2 pulgada,Accesorio para tubería de cobre.,180,fontaneria,https://server.com/img/codo_280.jpg
+1281,Pintura Base Agua Mate 1 Galón,Pintura con alta durabilidad.,20,PINTURAS,https://server.com/img/pintura_281.jpg
+SKU-1282,Set de Desarmadores de Joyero 6pcs,Mini desarmadores para trabajos delicados.,110,Manuales,https://server.com/img/joyero_282.jpg
+4533B,Pintura Base Agua Mate 1 Galón,Pintura de secado extra rápido.,-3,Pintura,https://server.com/img/pintura_283.jpg
+"1284,Abrazadera de Acero Inoxidable 2"",Abrazadera para mangueras y tuberías.,400,Fijaciones,https://server.com/img/abrazadera_284.jpg"
+"1285,Válvula Esférica de Latón 1/2"",Válvula de bola robusta para agua.,60,FONTANERIA,https://server.com/img/valvula_285.jpg"
+NULL,Malla Anti-pájaro para Jardín 4x10m,Malla de polietileno para proteger árboles frutales.,15,JARDINERÍA,https://server.com/img/malla_286.jpg
+1287,Pistola Calafateadora Eléctrica,Pistola a batería para selladores y siliconas.,12,Herramientas,https://server.com/img/calafateadora_287.jpg
+1288,Adhesivo de PVC para Tuberías Flexibles,Pegamento especial para PVC flexible.,90,QUÍMICOS,https://server.com/img/adhesivo_288.jpg
+1289,Tubo Termocontraíble Kit,Set de tubos que se encogen con calor para aislamiento.,75,ELECTRICIDAD,https://server.com/img/tubo_289.jpg
+INV-1290,Linterna de Cabeza LED con Zoom,Linterna frontal recargable y resistente al agua.,55,ILUMINACION,https://server.com/img/cabeza_290.jpg
+1291,Set de Brocas para Madera con Tope,Brocas con collarines ajustables de profundidad.,50,Brocas,https://server.com/img/brocas_291.jpg
+SKU-1292,Botiquín de Primeros Auxilios Pequeño,Kit básico de emergencia para oficina.,70,SEGURIDAD,NULL
+4533C,Pintura Acrílica Mate Exterior 1 Galón,Pintura resistente a rayos UV y lluvia.,16,PINTURAS,https://server.com/img/pintura_293.jpg
+"1294,Llave de Tubo Extensible 3/8"",Matraca telescópica para mejor alcance.,35,HERRAMIENTAS MANUALES,https://server.com/img/llave_294.jpg"
+1295,Soporte para Extintor de Pared,Soporte metálico para extintores de 5kg.,100,SEGURIDAD,https://server.com/img/soporte_295.jpg
+NULL,Discos de Fibra para Pulir Metal,Discos abrasivos para acabado superficial.,150,CONSUMIBLES,https://server.com/img/discos_296.jpg
+1297,Kit de Fontanería para Drenaje,Herramientas básicas para desatascar tuberías.,45,Fontaneria,https://server.com/img/kit_297.jpg
+1298,Set de Lijas de Agua y Seco Grano Fino,Hojas de lija para acabados de pintura.,200,Consumibles,https://server.com/img/lijas_298.jpg
+1299,Motor Sumergible 1/4 HP para Pozo,Motor para bombas de agua de pozo profundo.,8,JARDINERÍA,https://server.com/img/motor_299.jpg
+1300-J,Pintura Spray Anti-graffiti Transparente,Recubrimiento protector contra vandalismo.,30,Pintura,https://server.com/img/graffiti_300.jpg
+"1301-A,Sierra de Banco Portátil 8"",Sierra de mesa compacta para cortes pequeños.,15,HERRAMIENTAS,https://server.com/img/sierra_301.jpg"
+SKU-1302,Candado con Alarma de Movimiento,Candado que emite un sonido al detectar manipulación.,50,SEGURIDAD,https://server.com/img/candado_302.jpg
+"NULL,Manguera Plana Contra Incendios 2.5"",Manguera de alta presión para bomberos.,5,SEGURIDAD,https://server.com/img/manguera_303.jpg"
+4533D,Pintura Base Agua Mate 1 Galón,Pintura interior con excelente cubrimiento.,18,Pinturas,https://server.com/img/pintura_304.jpg
+1305,Set de Brocas de Pala para Madera 6pcs,Brocas planas para perforación rápida.,80,Brocas,https://server.com/img/brocas_305.jpg
+1306,Grifo Monomando para Baño,Grifería de lavamanos con una sola palanca.,12,FONTANERIA,NULL
+"INV-1307,Discos de Corte Inox 4.5"" Extra Finos,Disco abrasivo para cortes precisos en acero inoxidable.,150,CONSUMIBLES,https://server.com/img/disco_307.jpg"
+1308,Cemento Rápido para Fontanería,Cemento de fraguado instantáneo para fugas.,NULL,QUIMICOS,https://server.com/img/cemento_308.jpg
+1309,Juego de Destornilladores Intercambiables,Mango con 10 puntas diferentes.,90,Manuales,https://server.com/img/destorn_309.jpg
+SKU_1310,Lámpara Halógena de Exterior 500W,Foco potente para seguridad y obras.,35,ILUMINACION,https://server.com/img/halogena_310.jpg
+"1311,Tubo PVC Sanitario 3 Metros 4"",Tubería para desagüe.,25,fontaneria,https://server.com/img/tubo_311.jpg"
+4533E,Pintura Base Agua Mate 1 Galón,Pintura lavable de alta calidad. Color blanco roto.,-2,PINTURA,https://server.com/img/pintura_312.jpg
+1313,Llave de Tensión Ajustable Torque,Llave para apriete controlado de tuercas.,15,Herramientas,https://server.com/img/torque_313.jpg
+1314-Y,Bomba de Presión para Fumigadora,Bomba manual para pulverización en jardín.,60,JARDINERÍA,https://server.com/img/bomba_314.jpg
+NULL,Interruptor con Sensor de Proximidad,Interruptor que enciende al acercar la mano.,40,ELECTRICIDAD,https://server.com/img/sensor_315.jpg
+1316,Pestillo de Seguridad para Puerta,Cerrojo de acero para seguridad adicional.,110,HERRAJES,https://server.com/img/pestillo_316.jpg
+1317,Cinta de Embalaje Reforzada,Cinta con filamentos de fibra de vidrio.,150,Consumibles,NULL
+INV-1318,Masilla Epóxica de Dos Componentes,Masilla moldeable para reparaciones en metal y madera.,80,QUÍMICOS,https://server.com/img/masilla_318.jpg
+1319,Set de Llaves Combinadas Ratchet,Llaves con matraca en el extremo abierto.,25,Manuales,https://server.com/img/ratchet_319.jpg
+SKU-1320,Tornillos para Concreto Cabeza Hex,Tornillos de anclaje directo al hormigón.,130,FIJACIONES,https://server.com/img/tornillo_320.jpg
+1321,Taladro Inalámbrico 12V Compacto,Taladro-atornillador ligero con batería de iones de litio.,35,HERRAMIENTAS,https://server.com/img/taladro_321.jpg
+4533F,Pintura para Canchas Deportivas,Pintura acrílica de alto tráfico para exteriores.,10,Pinturas,https://server.com/img/canchas_322.jpg
+1323,Ventilador de Techo con Luz LED,Ventilador con 3 velocidades y control remoto.,30,ILUMINACION,https://server.com/img/ventilador_323.jpg
+NULL,Válvula Check Vertical 1 pulgada,Válvula antirretorno para bombas.,90,fontaneria,https://server.com/img/valvula_324.jpg
+1325,Kit de Accesorios para Soldadora,Cepillo de alambre, martillo y protector facial simple.,45,SOLDADURA,https://server.com/img/kit_soldadura_325.jpg
+1326,Clavos para Concreto 1.5 pulgadas,Clavos de acero templado.,250,Fijaciones,https://server.com/img/clavos_326.jpg
+"INV-1327,Brocas para Router Rectas 1/2"",Fresa recta para ranurado en madera.,55,Brocas,https://server.com/img/brocas_327.jpg"
+SKU_1328,Guantes de Neopreno para Químicos,Guantes largos de alta resistencia a ácidos.,70,SEGURIDAD,https://server.com/img/guantes_328.jpg
+1329,Motosierra Pértiga Eléctrica,Motosierra con extensión para podar ramas altas.,8,Jardinería,https://server.com/img/pertiga_329.jpg
+1330,Cinta Métrica de Fibra de Vidrio 30m,Cinta larga para medición de terrenos.,40,HERRAMIENTAS MANUALES,https://server.com/img/cinta_330.jpg
+1331-B,Sellador de Silicona Neutra Transparente,Sellador sin olor para superficies delicadas.,150,QUÍMICOS,https://server.com/img/sellador_331.jpg
+4533G,Pintura Vinílica Premium 1 Galón,Pintura de alto rendimiento. Acabado mate.,NULL,PINTURA,https://server.com/img/pintura_332.jpg
+1333,Regleta de Conexión Eléctrica 6 Tomas,Extension con supresor de picos y cable largo.,100,ELECTRICIDAD,https://server.com/img/regleta_333.jpg
+NULL,Bisagra Oculta para Gabinete,Bisagra de cierre suave para puertas de cocina.,180,Herrajes,https://server.com/img/bisagra_334.jpg
+1335,Lámpara Colgante LED Industrial,Foco de techo con diseño minimalista.,25,ILUMINACION,https://server.com/img/lampara_335.jpg
+1336,Set de Discos de Corte para Dremel,Discos pequeños para herramienta rotativa.,300,consumibles,https://server.com/img/discos_336.jpg
+INV-1337,Bomba Manual para Aceites y Combustibles,Bomba de trasiego para bidones.,30,Herramientas,https://server.com/img/bomba_337.jpg
+SKU-1338,Tornillos Autorroscantes Cabeza Plana,Tornillos para metal y plástico.,250,fijaciones,https://server.com/img/tornillo_338.jpg
+"1339,Set de Dados Largos 1/2"" 10pcs,Dados de impacto para tornillos largos.,65,Manuales,https://server.com/img/dados_339.jpg"
+1340,Pistola para Cartuchos de Sellador Industrial,Pistola de alta resistencia para cartuchos grandes.,40,HERRAMIENTAS MANUALES,https://server.com/img/pistola_340.jpg
+1341-C,Kit de Puntas de Destornillador 50pcs,Puntas de destornillador de cromo vanadio.,150,consumibles,https://server.com/img/puntas_341.jpg
+4533H,Pintura Acrílica Mate Exterior 1 Galón,Pintura de alto rendimiento para exteriores.,17,Pinturas,https://server.com/img/pintura_342.jpg
+1343,Flotador para Cisterna Sanitario,Flotador de llenado silencioso para tanque de inodoro.,90,FONTANERIA,https://server.com/img/flotador_343.jpg
+NULL,Cemento para Reparación de Pisos,Mortero autonivelante para suelos.,5,QUÍMICOS,https://server.com/img/cemento_344.jpg
+1345,Bomba de Calor para Piscina 1 HP,Bomba para climatización de agua de piscina.,-1,FONTANERIA,https://server.com/img/bomba_345.jpg
+1346,Detector de Metales de Mano,Detector portátil para buscar cables y tuberías en muros.,20,Herramientas,https://server.com/img/detector_346.jpg
+INV-1347,Set de Sierra de Corona para Madera,Brocas circulares para agujeros grandes.,45,Brocas,https://server.com/img/sierra_347.jpg
+SKU_1348,Fusibles de Vidrio Surtidos 100pcs,Fusibles para protección de circuitos.,150,ELECTRICIDAD,https://server.com/img/fusibles_348.jpg
+1349,Pala Redonda para Jardinería,Pala de acero con mango de madera.,70,JARDINERÍA,https://server.com/img/pala_349.jpg
+1350,Luminaria LED Panel 60x60cm,Panel de luz empotrable para cielorraso.,30,ILUMINACION,https://server.com/img/panel_350.jpg
+1351,Set de Brocas para Taladro de Banco,Brocas de acero de alta velocidad.,60,Brocas,https://server.com/img/brocas_351.jpg
+4533I,Pintura Base Agua Mate 1 Galón,Pintura con acabado brillante. Color turquesa.,15,PINTURA,https://server.com/img/pintura_352.jpg
+1353,Lijadora de Banda de Mesa,Lijadora estacionaria para taller.,4,HERRAMIENTAS,https://server.com/img/lijadora_353.jpg
+NULL,Extintor de Polvo Químico ABC 10kg,Extintor para incendios de clase A, B y C.,20,seguridad,https://server.com/img/extintor_354.jpg
+"1355,Grifo para Manguera Exterior 3/4"",Grifo de pared para conexión de manguera.,110,fontaneria,https://server.com/img/grifo_355.jpg"
+1356,Soldadura MIG sin Gas 1kg,Carrete de alambre fundente para soldadora MIG.,30,SOLDADURA,https://server.com/img/mig_356.jpg
+INV-1357,Kit de Primeros Auxilios para Vehículos,Botiquín compacto para carros.,85,SEGURIDAD,https://server.com/img/botiquin_357.jpg
+SKU-1358,Set de Llaves Combinadas Mando Fijo,Juego de llaves mixtas sin matraca.,90,Manuales,https://server.com/img/llaves_358.jpg
+1359,Pasta Lija para Carrocería Fina,Pasta de pulido para acabados de pintura.,100,consumibles,https://server.com/img/pasta_359.jpg
+1360,Tornillos T-25 para Estructuras Madera,Tornillos grandes para construcción de terrazas.,70,fijaciones,https://server.com/img/tornillo_360.jpg
+1361,Adhesivo de Poliuretano para Vidrio,Sellador elástico para parabrisas y vidrios.,140,QUÍMICOS,https://server.com/img/poliuretano_361.jpg
+4533J,Pintura Vinílica Exterior 1 Galón,Pintura resistente al clima. Acabado semibrillo.,18,Pinturas,https://server.com/img/pintura_362.jpg
+1363,Interruptor de Seguridad Industrial,Interruptor de corte de corriente de alta capacidad.,25,ELECTRICIDAD,https://server.com/img/interruptor_363.jpg
+NULL,Motosierra a Batería 40V,Motosierra potente sin cables.,8,Jardinería,https://server.com/img/motosierra_364.jpg
+1365,Caja de Herramientas Plástica Grande Ruedas,Caja con asa telescópica y ruedas para transporte.,15,Herramientas,https://server.com/img/caja_365.jpg
+1366,Guantes de Trabajo Antivibración,Guantes para el uso de herramientas de impacto.,50,SEGURIDAD,https://server.com/img/guantes_366.jpg
+INV-1367,Luminaria LED Hermética para Exterior,Foco sellado resistente al agua y polvo.,45,ILUMINACION,NULL
+"SKU_1368,Tubo de Polietileno Alta Densidad 1"",Tubería negra para agua potable.,100,FONTANERIA,https://server.com/img/tubo_368.jpg"
+1369,Set de Pinzas de Electrónica 4pcs,Pinzas de punta fina y corte para circuitos.,85,Manuales,https://server.com/img/pinzas_369.jpg
+1370,Pintura Spray Alta Temperatura Negro,Aerosol resistente al calor para parrillas y motores.,150,pintura,https://server.com/img/spray_370.jpg
+1371-D,Cinta Adhesiva de Aluminio,Cinta para sellar conductos de aire (HVAC).,120,Consumibles,https://server.com/img/cinta_371.jpg
+4533K,Pintura Base Agua Mate 1 Galón,Pintura con aditivo antihongos.,NULL,PINTURA,https://server.com/img/pintura_372.jpg
+1373,Brocas para Router de Moldura,Fresa para router para crear bordes decorativos.,30,Brocas,https://server.com/img/brocas_373.jpg
+NULL,Pasta para Soldar Cobre y Plata,Fundente de alta actividad para tuberías.,70,SOLDADURA,https://server.com/img/pasta_374.jpg
+1375,Cerradura Invisible Remota,Cerradura electrónica sin bocallave visible.,10,HERRAJES,https://server.com/img/cerradura_375.jpg
+1376,Termostato Digital WiFi Programable,Termostato inteligente para calefacción/AC.,20,ELECTRICIDAD,https://server.com/img/termostato_376.jpg
+INV-1377,Llave de T para Bujías 13mm,Llave de mango deslizante para bujías de motor.,60,HERRAMIENTAS MANUALES,https://server.com/img/llave_377.jpg
+SKU-1378,Tornillos de Cabeza Redonda con Cuadrado,Tornillos coche para madera y metal.,150,fijaciones,https://server.com/img/tornillo_378.jpg
+1379,Manguera de Riego por Goteo 100m,Tubería con emisores integrados.,15,JARDINERÍA,https://server.com/img/goteo_379.jpg
+1380,Medidor de CO2 Digital Portátil,Instrumento para medir la calidad del aire interior.,25,Herramientas,https://server.com/img/co2_380.jpg
+"1381,Lijadora de Banda de Mano 3x18"",Lijadora portátil para superficies planas.,10,HERRAMIENTAS,https://server.com/img/lijadora_381.jpg"
+4533L,Pintura Impermeabilizante Elástica,Recubrimiento para muros exteriores.,12,Pinturas,https://server.com/img/impermeab_382.jpg
+1383,Grifo de Cuello de Cisne para Cocina,Grifería alta con caño curvo.,18,FONTANERIA,https://server.com/img/grifo_383.jpg
+NULL,Masilla para Juntas de Drywall,Compuesto de relleno para placas de yeso.,90,Consumibles,https://server.com/img/masilla_384.jpg
+1385,Soplete de Gas Propano con Encendido,Antorcha para soldadura blanda y calentamiento.,45,SOLDADURA,https://server.com/img/soplete_385.jpg
+1386,Set de Tarugos y Tornillos de Plástico,Anclajes para pared de ladrillo y concreto.,300,Fijaciones,https://server.com/img/tarugos_386.jpg
+INV-1387,Guantes de Nitrilo Desechables 100pcs,Guantes sin polvo para químicos y limpieza.,200,seguridad,https://server.com/img/guantes_387.jpg
+SKU_1388,Lámpara UV para Detección de Fugas,Linterna de luz negra para refrigerantes y aceites.,60,ILUMINACION,https://server.com/img/uv_388.jpg
+1389,Bomba de Aire Eléctrica para Inflables,Bomba de bajo volumen y alta presión.,75,Herramientas,https://server.com/img/bomba_389.jpg
+1390,Set de Lima Rotativa para Metal,Fresas de carburo de tungsteno para taladro.,40,Brocas,https://server.com/img/lima_390.jpg
+1391-E,Adhesivo de Silicona Acética Negra,Sellador multiuso para baños y cocinas. Color negro.,120,QUÍMICOS,https://server.com/img/silicona_391.jpg
+4533M,Pintura Base Agua Mate 1 Galón,Pintura con resistencia a la humedad.,NULL,Pintura,https://server.com/img/pintura_392.jpg
+1393,Cerradura Electrónica con Teclado,Cerradura de puerta con código digital.,22,Herrajes,https://server.com/img/teclado_393.jpg
+NULL,Cable de Red RJ45 15 Metros,Cable UTP Cat 6 pre-ensamblado.,100,ELECTRICIDAD,https://server.com/img/cable_394.jpg
+1395,Mochila para Notebook y Herramientas,Mochila con compartimento acolchado para laptop.,18,SEGURIDAD,https://server.com/img/mochila_395.jpg
+1396,Sierra de Mesa para Cerámica Húmeda,Cortadora de azulejos con bandeja de agua.,3,HERRAMIENTAS,https://server.com/img/sierra_396.jpg
+"INV-1397,Pinzas de Presión Mordaza Curva 10"",Pinzas de sujeción ajustables.,80,Manuales,https://server.com/img/pinzas_397.jpg"
+SKU-1398,Tubo de Abasto Flexible para WC,Manguera de conexión para inodoro.,150,FONTANERIA,https://server.com/img/abasto_398.jpg
+1399,Regadera para Jardín con Mango Largo,Regadera de plástico de 10 litros.,90,jardinería,https://server.com/img/regadera_399.jpg
+1400-K,Pintura Spray Acrílica Transparente Brillante,Aerosol de acabado protector.,200,Pinturas,https://server.com/img/spray_400.jpg

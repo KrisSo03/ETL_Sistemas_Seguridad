@@ -1,0 +1,1 @@
+# Conexión MySQL/MariaDB (SSL/TLS)
