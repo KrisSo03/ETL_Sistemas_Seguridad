@@ -1,44 +1,24 @@
 import logging
 from pathlib import Path
 
-def setup_logger():
-    """
-    Configura el sistema de logging para el proyecto ETL.
-
-    - Crea la carpeta 'logs' en la raíz del proyecto si no existe.
-    - Registra los mensajes tanto en un archivo ('logs/etl.log') como en la consola.
-    - Devuelve el logger raíz configurado.
-    """
-
-    # Ruta base del proyecto (una carpeta arriba del archivo actual)
-    project_root = Path(__file__).resolve().parents[1]
-    
-    # Carpeta para guardar logs
-    logs_folder = project_root / "logs"
-    logs_folder.mkdir(exist_ok=True)
-    
-    # Archivo de log
-    log_file_path = logs_folder / "etl.log"
-
-    # Configuración básica: formato, nivel y archivo destino
-    logging.basicConfig(
-        filename=log_file_path,
-        filemode="a",
-        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
-        level=logging.INFO
-    )
-
-    # Mostrar mensajes también en la terminal
+def get_logger():
+    #Crea carpeta logs si no existe
+    log_folder = Path("logs")
+    log_folder.mkdir(exist_ok=True)
+    #Crea logger principal
+    logger = logging.getLogger("ETL")
+    logger.setLevel(logging.INFO)
+    #Handler de archivo .log
+    file_handler = logging.FileHandler(log_folder / "etl.log")
+    file_handler.setLevel(logging.INFO)
+    #Handler en consola
     console_handler = logging.StreamHandler()
     console_handler.setLevel(logging.INFO)
-    console_format = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
-    console_handler.setFormatter(console_format)
-
-    # Obtener el logger raíz y agregar el handler de consola
-    root_logger = logging.getLogger()
-    root_logger.addHandler(console_handler)
-
-    root_logger.info("Logger initialized successfully.")
-
-    return root_logger
-
+    #Formato estándar para logs
+    formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    file_handler.setFormatter(formatter)
+    console_handler.setFormatter(formatter)
+    #Asigna handlers al logger
+    logger.addHandler(file_handler)
+    logger.addHandler(console_handler)
+    return logger
