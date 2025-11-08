@@ -10,8 +10,8 @@ USE dwh_inventario;
 
 -- Tabla final de inventario consolidado
 CREATE TABLE inventario_consolidado (
-  codigo_producto INT NOT NULL PRIMARY KEY,
-  nombre VARCHAR(200) NOT NULL,
+  codigo_producto INT NOT NULL PRIMARY KEY, -- # Si quiere que sea alfa numerico poner VARCHAR
+  nombre VARCHAR(250) NOT NULL,
   descripcion_producto TEXT NOT NULL,
   stock INT NOT NULL,
   categoria VARCHAR(100) NOT NULL,

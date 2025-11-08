@@ -12,8 +12,8 @@ logger = get_logger()  #Inicializa logger central
 #==================== FUENTES ====================
 
 URLS_LOCAL = [
-    "data/raw/Inventario_1.csv",
-    "data/raw/Inventario_2.csv",
+    "data/raw/Inventario POS 1.xlsx",
+    "data/raw/Inventario POS 2.xlsx",
     "data/raw/Inventario_3.csv"
 ]
 
@@ -51,7 +51,7 @@ def extraer_local(rutas):
 def transformar_datos(df):
     #Limpia, normaliza encabezados y conforma columnas para la tabla DW
     import re, unicodedata
-    USE_INT_PK = False
+    USE_INT_PK = True # Si quiere que sea alfa numerico poner FALSE
     if df.empty:
         logger.warning("DF vacío en transformación."); return df
     #Normaliza: quita acentos/espacios/símbolos y baja a minúsculas
@@ -111,6 +111,16 @@ def transformar_datos(df):
     out = out[["codigo_producto","nombre","descripcion_producto","stock","categoria","imagen_url","fecha_carga_dw"]]
     for c in ["nombre","descripcion_producto","categoria","imagen_url"]:
         out[c] = out[c].astype(str)
+    #Validación de longitud por columna VARCHAR
+    max_lens = {
+        "nombre": 250,
+        "categoria": 100,
+        "imagen_url": 500,
+    }
+    antes = out.shape[0]
+    for col, max_len in max_lens.items():
+        out = out[out[col].str.len() <= max_len]
+    logger.info(f"Descartados por exceso de longitud: {antes - out.shape[0]}")
     logger.info(f"Transformación final: {out.shape[0]} filas")
     return out
 

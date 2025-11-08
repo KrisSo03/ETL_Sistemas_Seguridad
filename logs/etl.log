@@ -156,3 +156,142 @@ mysql.connector.errors.DatabaseError: 1366 (HY000): Incorrect integer value: 'No
 2025-11-07 17:57:57,000 - INFO - Cargados/actualizados: 3 registros
 2025-11-07 17:57:57,000 - INFO - [CARGA] ok
 2025-11-07 17:57:57,000 - INFO - === FIN PIPELINE ETL (OK) ===
+2025-11-07 18:08:56,442 - INFO - === INICIO PIPELINE ETL ===
+2025-11-07 18:08:56,443 - INFO - [EXTRACCION_LOCAL] inicio
+2025-11-07 18:08:58,240 - INFO - Columnas detectadas: ['Bodega', 'Column2', 'Codigo producto', 'Nombre', 'STOCK', 'Column6', 'Precio', 'Column8', 'Column9', 'Column10', 'Column11', 'Column12', 'Column13', 'Column14', 'Column15', 'Column16', 'Column17', 'Column18', 'Column19', 'Column20', 'Column21', 'Column22', 'Column23', 'Column24', 'Column25', 'Column26', 'Column27', 'Column28', 'Column29', 'Column30', 'Column31', 'Column32', 'Fuente_Archivo', 'Descripción del producto', 'Stock', 'Categoria', 'Imagen', 'Codigo_Producto_SKU', 'Descripcion_Producto', 'Imagen(url del servidor)']
+2025-11-07 18:08:58,241 - INFO - [EXTRACCION_LOCAL] ok
+2025-11-07 18:08:58,241 - INFO - [TRANSFORMACION] inicio
+2025-11-07 18:08:58,243 - INFO - Columnas normalizadas: [('bodega', 'Bodega'), ('column2', 'Column2'), ('codigoproducto', 'Codigo producto'), ('nombre', 'Nombre'), ('stock', 'STOCK'), ('column6', 'Column6'), ('precio', 'Precio'), ('column8', 'Column8'), ('column9', 'Column9'), ('column10', 'Column10'), ('column11', 'Column11'), ('column12', 'Column12'), ('column13', 'Column13'), ('column14', 'Column14'), ('column15', 'Column15'), ('column16', 'Column16'), ('column17', 'Column17'), ('column18', 'Column18'), ('column19', 'Column19'), ('column20', 'Column20'), ('column21', 'Column21'), ('column22', 'Column22'), ('column23', 'Column23'), ('column24', 'Column24'), ('column25', 'Column25'), ('column26', 'Column26'), ('column27', 'Column27'), ('column28', 'Column28'), ('column29', 'Column29'), ('column30', 'Column30'), ('column31', 'Column31'), ('column32', 'Column32'), ('fuentearchivo', 'Fuente_Archivo'), ('descripciondelproducto', 'Descripción del producto'), ('stock', 'Stock'), ('categoria', 'Categoria'), ('imagen', 'Imagen'), ('codigoproductosku', 'Codigo_Producto_SKU'), ('descripcionproducto', 'Descripcion_Producto'), ('imagenurldelservidor', 'Imagen(url del servidor)')]
+2025-11-07 18:08:58,258 - INFO - Descartados sin nombre/codigo: 578
+2025-11-07 18:08:58,265 - INFO - Eliminados por stock inválido/negativo: 9749
+2025-11-07 18:08:58,269 - INFO - Duplicados por código removidos: 0
+2025-11-07 18:08:58,278 - INFO - Transformación final: 4316 filas
+2025-11-07 18:08:58,278 - INFO - [TRANSFORMACION] ok
+2025-11-07 18:08:58,278 - INFO - [CARGA] inicio
+2025-11-07 18:08:58,377 - ERROR - [CARGA] falló: 1366 (HY000): Incorrect integer value: 'COMBO1' for column 'codigo_producto' at row 1
+Traceback (most recent call last):
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 661, in cmd_query
+    self._cmysql.query(
+_mysql_connector.MySQLInterfaceError: Incorrect integer value: 'COMBO1' for column 'codigo_producto' at row 1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/etl/pipeline.py", line 133, in _step
+    res = fn(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/etl/pipeline.py", line 124, in load
+    n = bulk_upsert_inventario(df)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/etl/db.py", line 34, in bulk_upsert_inventario
+    raise e
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/etl/db.py", line 29, in bulk_upsert_inventario
+    cur.executemany(sql, list(df.itertuples(index=False, name=None)))
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/cursor_cext.py", line 501, in executemany
+    return self.execute(stmt)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/cursor_cext.py", line 374, in execute
+    result = self._cnx.cmd_query(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/opentelemetry/context_propagation.py", line 74, in wrapper
+    return method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 669, in cmd_query
+    raise get_mysql_exception(
+mysql.connector.errors.DatabaseError: 1366 (HY000): Incorrect integer value: 'COMBO1' for column 'codigo_producto' at row 1
+2025-11-07 18:08:58,384 - ERROR - === FIN PIPELINE ETL (ERROR) ===
+2025-11-07 18:10:22,201 - INFO - === INICIO PIPELINE ETL ===
+2025-11-07 18:10:22,201 - INFO - [EXTRACCION_LOCAL] inicio
+2025-11-07 18:10:24,017 - INFO - Columnas detectadas: ['Bodega', 'Column2', 'Codigo producto', 'Nombre', 'STOCK', 'Column6', 'Precio', 'Column8', 'Column9', 'Column10', 'Column11', 'Column12', 'Column13', 'Column14', 'Column15', 'Column16', 'Column17', 'Column18', 'Column19', 'Column20', 'Column21', 'Column22', 'Column23', 'Column24', 'Column25', 'Column26', 'Column27', 'Column28', 'Column29', 'Column30', 'Column31', 'Column32', 'Fuente_Archivo', 'Descripción del producto', 'Stock', 'Categoria', 'Imagen', 'Codigo_Producto_SKU', 'Descripcion_Producto', 'Imagen(url del servidor)']
+2025-11-07 18:10:24,019 - INFO - [EXTRACCION_LOCAL] ok
+2025-11-07 18:10:24,019 - INFO - [TRANSFORMACION] inicio
+2025-11-07 18:10:24,021 - INFO - Columnas normalizadas: [('bodega', 'Bodega'), ('column2', 'Column2'), ('codigoproducto', 'Codigo producto'), ('nombre', 'Nombre'), ('stock', 'STOCK'), ('column6', 'Column6'), ('precio', 'Precio'), ('column8', 'Column8'), ('column9', 'Column9'), ('column10', 'Column10'), ('column11', 'Column11'), ('column12', 'Column12'), ('column13', 'Column13'), ('column14', 'Column14'), ('column15', 'Column15'), ('column16', 'Column16'), ('column17', 'Column17'), ('column18', 'Column18'), ('column19', 'Column19'), ('column20', 'Column20'), ('column21', 'Column21'), ('column22', 'Column22'), ('column23', 'Column23'), ('column24', 'Column24'), ('column25', 'Column25'), ('column26', 'Column26'), ('column27', 'Column27'), ('column28', 'Column28'), ('column29', 'Column29'), ('column30', 'Column30'), ('column31', 'Column31'), ('column32', 'Column32'), ('fuentearchivo', 'Fuente_Archivo'), ('descripciondelproducto', 'Descripción del producto'), ('stock', 'Stock'), ('categoria', 'Categoria'), ('imagen', 'Imagen'), ('codigoproductosku', 'Codigo_Producto_SKU'), ('descripcionproducto', 'Descripcion_Producto'), ('imagenurldelservidor', 'Imagen(url del servidor)')]
+2025-11-07 18:10:24,036 - INFO - Descartados sin nombre/codigo: 578
+2025-11-07 18:10:24,046 - INFO - Descartados por codigo no numérico: 16
+2025-11-07 18:10:24,050 - INFO - Eliminados por stock inválido/negativo: 9737
+2025-11-07 18:10:24,053 - INFO - Duplicados por código removidos: 0
+2025-11-07 18:10:24,064 - INFO - Transformación final: 4312 filas
+2025-11-07 18:10:24,064 - INFO - [TRANSFORMACION] ok
+2025-11-07 18:10:24,064 - INFO - [CARGA] inicio
+2025-11-07 18:10:24,291 - ERROR - [CARGA] falló: 1406 (22001): Data too long for column 'nombre' at row 3366
+Traceback (most recent call last):
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 661, in cmd_query
+    self._cmysql.query(
+_mysql_connector.MySQLInterfaceError: Data too long for column 'nombre' at row 3366
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/etl/pipeline.py", line 133, in _step
+    res = fn(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/etl/pipeline.py", line 124, in load
+    n = bulk_upsert_inventario(df)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/etl/db.py", line 34, in bulk_upsert_inventario
+    raise e
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/etl/db.py", line 29, in bulk_upsert_inventario
+    cur.executemany(sql, list(df.itertuples(index=False, name=None)))
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/cursor_cext.py", line 501, in executemany
+    return self.execute(stmt)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/cursor_cext.py", line 374, in execute
+    result = self._cnx.cmd_query(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/opentelemetry/context_propagation.py", line 74, in wrapper
+    return method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 669, in cmd_query
+    raise get_mysql_exception(
+mysql.connector.errors.DataError: 1406 (22001): Data too long for column 'nombre' at row 3366
+2025-11-07 18:10:24,296 - ERROR - === FIN PIPELINE ETL (ERROR) ===
+2025-11-07 18:13:59,455 - INFO - === INICIO PIPELINE ETL ===
+2025-11-07 18:13:59,455 - INFO - [EXTRACCION_LOCAL] inicio
+2025-11-07 18:14:01,251 - INFO - Columnas detectadas: ['Bodega', 'Column2', 'Codigo producto', 'Nombre', 'STOCK', 'Column6', 'Precio', 'Column8', 'Column9', 'Column10', 'Column11', 'Column12', 'Column13', 'Column14', 'Column15', 'Column16', 'Column17', 'Column18', 'Column19', 'Column20', 'Column21', 'Column22', 'Column23', 'Column24', 'Column25', 'Column26', 'Column27', 'Column28', 'Column29', 'Column30', 'Column31', 'Column32', 'Fuente_Archivo', 'Descripción del producto', 'Stock', 'Categoria', 'Imagen', 'Codigo_Producto_SKU', 'Descripcion_Producto', 'Imagen(url del servidor)']
+2025-11-07 18:14:01,252 - INFO - [EXTRACCION_LOCAL] ok
+2025-11-07 18:14:01,252 - INFO - [TRANSFORMACION] inicio
+2025-11-07 18:14:01,255 - INFO - Columnas normalizadas: [('bodega', 'Bodega'), ('column2', 'Column2'), ('codigoproducto', 'Codigo producto'), ('nombre', 'Nombre'), ('stock', 'STOCK'), ('column6', 'Column6'), ('precio', 'Precio'), ('column8', 'Column8'), ('column9', 'Column9'), ('column10', 'Column10'), ('column11', 'Column11'), ('column12', 'Column12'), ('column13', 'Column13'), ('column14', 'Column14'), ('column15', 'Column15'), ('column16', 'Column16'), ('column17', 'Column17'), ('column18', 'Column18'), ('column19', 'Column19'), ('column20', 'Column20'), ('column21', 'Column21'), ('column22', 'Column22'), ('column23', 'Column23'), ('column24', 'Column24'), ('column25', 'Column25'), ('column26', 'Column26'), ('column27', 'Column27'), ('column28', 'Column28'), ('column29', 'Column29'), ('column30', 'Column30'), ('column31', 'Column31'), ('column32', 'Column32'), ('fuentearchivo', 'Fuente_Archivo'), ('descripciondelproducto', 'Descripción del producto'), ('stock', 'Stock'), ('categoria', 'Categoria'), ('imagen', 'Imagen'), ('codigoproductosku', 'Codigo_Producto_SKU'), ('descripcionproducto', 'Descripcion_Producto'), ('imagenurldelservidor', 'Imagen(url del servidor)')]
+2025-11-07 18:14:01,270 - INFO - Descartados sin nombre/codigo: 578
+2025-11-07 18:14:01,281 - INFO - Descartados por codigo no numérico: 16
+2025-11-07 18:14:01,284 - INFO - Eliminados por stock inválido/negativo: 9737
+2025-11-07 18:14:01,287 - INFO - Duplicados por código removidos: 0
+2025-11-07 18:14:01,297 - INFO - Transformación final: 4312 filas
+2025-11-07 18:14:01,297 - INFO - [TRANSFORMACION] ok
+2025-11-07 18:14:01,297 - INFO - [CARGA] inicio
+2025-11-07 18:14:01,492 - INFO - Cargados/actualizados: 4312 registros
+2025-11-07 18:14:01,492 - INFO - [CARGA] ok
+2025-11-07 18:14:01,492 - INFO - === FIN PIPELINE ETL (OK) ===
+2025-11-07 18:17:42,120 - INFO - === INICIO PIPELINE ETL ===
+2025-11-07 18:17:42,120 - INFO - [EXTRACCION_LOCAL] inicio
+2025-11-07 18:17:43,908 - INFO - Columnas detectadas: ['Bodega', 'Column2', 'Codigo producto', 'Nombre', 'STOCK', 'Column6', 'Precio', 'Column8', 'Column9', 'Column10', 'Column11', 'Column12', 'Column13', 'Column14', 'Column15', 'Column16', 'Column17', 'Column18', 'Column19', 'Column20', 'Column21', 'Column22', 'Column23', 'Column24', 'Column25', 'Column26', 'Column27', 'Column28', 'Column29', 'Column30', 'Column31', 'Column32', 'Fuente_Archivo', 'Descripción del producto', 'Stock', 'Categoria', 'Imagen', 'Codigo_Producto_SKU', 'Descripcion_Producto', 'Imagen(url del servidor)']
+2025-11-07 18:17:43,909 - INFO - [EXTRACCION_LOCAL] ok
+2025-11-07 18:17:43,909 - INFO - [TRANSFORMACION] inicio
+2025-11-07 18:17:43,911 - INFO - Columnas normalizadas: [('bodega', 'Bodega'), ('column2', 'Column2'), ('codigoproducto', 'Codigo producto'), ('nombre', 'Nombre'), ('stock', 'STOCK'), ('column6', 'Column6'), ('precio', 'Precio'), ('column8', 'Column8'), ('column9', 'Column9'), ('column10', 'Column10'), ('column11', 'Column11'), ('column12', 'Column12'), ('column13', 'Column13'), ('column14', 'Column14'), ('column15', 'Column15'), ('column16', 'Column16'), ('column17', 'Column17'), ('column18', 'Column18'), ('column19', 'Column19'), ('column20', 'Column20'), ('column21', 'Column21'), ('column22', 'Column22'), ('column23', 'Column23'), ('column24', 'Column24'), ('column25', 'Column25'), ('column26', 'Column26'), ('column27', 'Column27'), ('column28', 'Column28'), ('column29', 'Column29'), ('column30', 'Column30'), ('column31', 'Column31'), ('column32', 'Column32'), ('fuentearchivo', 'Fuente_Archivo'), ('descripciondelproducto', 'Descripción del producto'), ('stock', 'Stock'), ('categoria', 'Categoria'), ('imagen', 'Imagen'), ('codigoproductosku', 'Codigo_Producto_SKU'), ('descripcionproducto', 'Descripcion_Producto'), ('imagenurldelservidor', 'Imagen(url del servidor)')]
+2025-11-07 18:17:43,927 - INFO - Descartados sin nombre/codigo: 578
+2025-11-07 18:17:43,937 - INFO - Descartados por codigo no numérico: 16
+2025-11-07 18:17:43,941 - INFO - Eliminados por stock inválido/negativo: 9737
+2025-11-07 18:17:43,944 - INFO - Duplicados por código removidos: 0
+2025-11-07 18:17:43,960 - INFO - Descartados por exceso de longitud: 0
+2025-11-07 18:17:43,960 - INFO - Transformación final: 4312 filas
+2025-11-07 18:17:43,960 - INFO - [TRANSFORMACION] ok
+2025-11-07 18:17:43,960 - INFO - [CARGA] inicio
+2025-11-07 18:17:44,137 - INFO - Cargados/actualizados: 4312 registros
+2025-11-07 18:17:44,137 - INFO - [CARGA] ok
+2025-11-07 18:17:44,137 - INFO - === FIN PIPELINE ETL (OK) ===
+2025-11-07 18:46:31,620 - INFO - === INICIO PIPELINE ETL ===
+2025-11-07 18:46:31,621 - INFO - [EXTRACCION_LOCAL] inicio
+2025-11-07 18:46:33,559 - INFO - Columnas detectadas: ['Bodega', 'Column2', 'Codigo producto', 'Nombre', 'STOCK', 'Column6', 'Precio', 'Column8', 'Column9', 'Column10', 'Column11', 'Column12', 'Column13', 'Column14', 'Column15', 'Column16', 'Column17', 'Column18', 'Column19', 'Column20', 'Column21', 'Column22', 'Column23', 'Column24', 'Column25', 'Column26', 'Column27', 'Column28', 'Column29', 'Column30', 'Column31', 'Column32', 'Fuente_Archivo', 'Descripción del producto', 'Stock', 'Categoria', 'Imagen', 'Codigo_Producto_SKU', 'Descripcion_Producto', 'Imagen(url del servidor)']
+2025-11-07 18:46:33,560 - INFO - [EXTRACCION_LOCAL] ok
+2025-11-07 18:46:33,560 - INFO - [TRANSFORMACION] inicio
+2025-11-07 18:46:33,561 - INFO - Columnas normalizadas: [('bodega', 'Bodega'), ('column2', 'Column2'), ('codigoproducto', 'Codigo producto'), ('nombre', 'Nombre'), ('stock', 'STOCK'), ('column6', 'Column6'), ('precio', 'Precio'), ('column8', 'Column8'), ('column9', 'Column9'), ('column10', 'Column10'), ('column11', 'Column11'), ('column12', 'Column12'), ('column13', 'Column13'), ('column14', 'Column14'), ('column15', 'Column15'), ('column16', 'Column16'), ('column17', 'Column17'), ('column18', 'Column18'), ('column19', 'Column19'), ('column20', 'Column20'), ('column21', 'Column21'), ('column22', 'Column22'), ('column23', 'Column23'), ('column24', 'Column24'), ('column25', 'Column25'), ('column26', 'Column26'), ('column27', 'Column27'), ('column28', 'Column28'), ('column29', 'Column29'), ('column30', 'Column30'), ('column31', 'Column31'), ('column32', 'Column32'), ('fuentearchivo', 'Fuente_Archivo'), ('descripciondelproducto', 'Descripción del producto'), ('stock', 'Stock'), ('categoria', 'Categoria'), ('imagen', 'Imagen'), ('codigoproductosku', 'Codigo_Producto_SKU'), ('descripcionproducto', 'Descripcion_Producto'), ('imagenurldelservidor', 'Imagen(url del servidor)')]
+2025-11-07 18:46:33,573 - INFO - Descartados sin nombre/codigo: 578
+2025-11-07 18:46:33,583 - INFO - Descartados por codigo no numérico: 16
+2025-11-07 18:46:33,587 - INFO - Eliminados por stock inválido/negativo: 9737
+2025-11-07 18:46:33,589 - INFO - Duplicados por código removidos: 0
+2025-11-07 18:46:33,605 - INFO - Descartados por exceso de longitud: 0
+2025-11-07 18:46:33,605 - INFO - Transformación final: 4312 filas
+2025-11-07 18:46:33,605 - INFO - [TRANSFORMACION] ok
+2025-11-07 18:46:33,605 - INFO - [CARGA] inicio
+2025-11-07 18:46:33,875 - INFO - Cargados/actualizados: 4312 registros
+2025-11-07 18:46:33,875 - INFO - [CARGA] ok
+2025-11-07 18:46:33,875 - INFO - === FIN PIPELINE ETL (OK) ===
