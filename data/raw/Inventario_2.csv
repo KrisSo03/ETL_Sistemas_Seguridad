@@ -1,0 +1,7 @@
+sku,producto,detalle,existencia,rubro,url_imagen
+2001,Cerradura,Digital,8,Seguridad ,http://img/cerr1.jpg
+2001,Cerradura,Digital (dup),8,seguridad,http://img/cerr1_dup.jpg
+ 2002 ,Luces,LED,12,hogar,http://img/led.jpg
+2003,Router,WiFi 6,0,Electrónica,http://img/router.jpg
+,Regleta,6 tomas,3,Hogar,http://img/regleta.jpg
+BADROW,Row with too,many,commas,here,1,2,3

@@ -1,0 +1,158 @@
+2025-11-07 17:30:08,889 - INFO - === INICIO PIPELINE ETL ===
+2025-11-07 17:30:08,889 - INFO - [EXTRACCION] inicio
+2025-11-07 17:30:09,138 - ERROR - Error leyendo https://raw.githubusercontent.com/CSMore/ETL_Sistemas_Seguridad/main/data/raw/Inventario%20POS%201.xlsx: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>
+2025-11-07 17:30:09,291 - ERROR - Error leyendo https://raw.githubusercontent.com/CSMore/ETL_Sistemas_Seguridad/main/data/raw/Inventario%20POS%202.xlsx: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>
+2025-11-07 17:30:09,444 - ERROR - Error leyendo https://raw.githubusercontent.com/CSMore/ETL_Sistemas_Seguridad/main/data/raw/Inventario_3.csv: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>
+2025-11-07 17:30:09,444 - WARNING - No se leyó ningún archivo válido.
+2025-11-07 17:30:09,446 - INFO - [EXTRACCION] ok
+2025-11-07 17:30:09,447 - INFO - [TRANSFORMACION] inicio
+2025-11-07 17:30:09,447 - WARNING - DF vacío en transformación.
+2025-11-07 17:30:09,447 - INFO - [TRANSFORMACION] ok
+2025-11-07 17:30:09,447 - INFO - [CARGA] inicio
+2025-11-07 17:30:09,447 - WARNING - No hay datos para cargar.
+2025-11-07 17:30:09,447 - INFO - [CARGA] ok
+2025-11-07 17:30:09,447 - INFO - === FIN PIPELINE ETL (OK) ===
+2025-11-07 17:34:36,892 - INFO - === INICIO PIPELINE ETL ===
+2025-11-07 17:34:36,892 - INFO - [EXTRACCION_LOCAL] inicio
+2025-11-07 17:34:38,863 - ERROR - Error leyendo data/raw/Inventario_3.csv: Error tokenizing data. C error: Expected 6 fields in line 5, saw 7
+
+2025-11-07 17:34:38,873 - INFO - [EXTRACCION_LOCAL] ok
+2025-11-07 17:34:38,873 - INFO - [TRANSFORMACION] inicio
+2025-11-07 17:34:38,881 - INFO - Eliminados sin nombre: 21
+2025-11-07 17:34:38,884 - INFO - Eliminados por stock inválido/negativo: 9749
+2025-11-07 17:34:38,888 - INFO - Duplicados por código removidos: 4315
+2025-11-07 17:34:38,893 - INFO - Transformación final: 1 filas
+2025-11-07 17:34:38,893 - INFO - [TRANSFORMACION] ok
+2025-11-07 17:34:38,893 - INFO - [CARGA] inicio
+2025-11-07 17:34:38,949 - ERROR - [CARGA] falló: 1366 (HY000): Incorrect integer value: 'None' for column 'codigo_producto' at row 1
+Traceback (most recent call last):
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 661, in cmd_query
+    self._cmysql.query(
+_mysql_connector.MySQLInterfaceError: Incorrect integer value: 'None' for column 'codigo_producto' at row 1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/etl/pipeline.py", line 100, in _step
+    res = fn(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/etl/pipeline.py", line 91, in load
+    n = bulk_upsert_inventario(df)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/etl/db.py", line 34, in bulk_upsert_inventario
+    raise e
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/etl/db.py", line 29, in bulk_upsert_inventario
+    cur.executemany(sql, list(df.itertuples(index=False, name=None)))
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/cursor_cext.py", line 501, in executemany
+    return self.execute(stmt)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/cursor_cext.py", line 374, in execute
+    result = self._cnx.cmd_query(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/opentelemetry/context_propagation.py", line 74, in wrapper
+    return method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andreymora/Documents/3_Cuatrimestre_2025/Sistemas_Seguridad/Proyecto_1/ETL_Sistemas_Seguridad/.venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 669, in cmd_query
+    raise get_mysql_exception(
+mysql.connector.errors.DatabaseError: 1366 (HY000): Incorrect integer value: 'None' for column 'codigo_producto' at row 1
+2025-11-07 17:34:38,953 - ERROR - === FIN PIPELINE ETL (ERROR) ===
+2025-11-07 17:36:40,820 - INFO - === INICIO PIPELINE ETL ===
+2025-11-07 17:36:40,820 - INFO - [EXTRACCION_LOCAL] inicio
+2025-11-07 17:36:42,620 - INFO - [EXTRACCION_LOCAL] ok
+2025-11-07 17:36:42,620 - INFO - [TRANSFORMACION] inicio
+2025-11-07 17:36:42,625 - INFO - Descartados sin nombre/codigo: 14643
+2025-11-07 17:36:42,626 - INFO - Descartados por codigo no numérico: 0
+2025-11-07 17:36:42,627 - INFO - Eliminados por stock inválido/negativo: 0
+2025-11-07 17:36:42,627 - INFO - Duplicados por código removidos: 0
+2025-11-07 17:36:42,631 - INFO - Transformación final: 0 filas
+2025-11-07 17:36:42,631 - INFO - [TRANSFORMACION] ok
+2025-11-07 17:36:42,631 - INFO - [CARGA] inicio
+2025-11-07 17:36:42,631 - WARNING - No hay datos para cargar.
+2025-11-07 17:36:42,631 - INFO - [CARGA] ok
+2025-11-07 17:36:42,631 - INFO - === FIN PIPELINE ETL (OK) ===
+2025-11-07 17:41:37,668 - INFO - === INICIO PIPELINE ETL ===
+2025-11-07 17:41:37,668 - INFO - [EXTRACCION_LOCAL] inicio
+2025-11-07 17:41:37,687 - INFO - [EXTRACCION_LOCAL] ok
+2025-11-07 17:41:37,687 - INFO - [TRANSFORMACION] inicio
+2025-11-07 17:41:37,691 - INFO - Descartados sin nombre/codigo: 15
+2025-11-07 17:41:37,692 - INFO - Descartados por codigo no numérico: 0
+2025-11-07 17:41:37,693 - INFO - Eliminados por stock inválido/negativo: 0
+2025-11-07 17:41:37,693 - INFO - Duplicados por código removidos: 0
+2025-11-07 17:41:37,697 - INFO - Transformación final: 0 filas
+2025-11-07 17:41:37,697 - INFO - [TRANSFORMACION] ok
+2025-11-07 17:41:37,697 - INFO - [CARGA] inicio
+2025-11-07 17:41:37,697 - WARNING - No hay datos para cargar.
+2025-11-07 17:41:37,697 - INFO - [CARGA] ok
+2025-11-07 17:41:37,697 - INFO - === FIN PIPELINE ETL (OK) ===
+2025-11-07 17:42:55,307 - INFO - === INICIO PIPELINE ETL ===
+2025-11-07 17:42:55,308 - INFO - [EXTRACCION_LOCAL] inicio
+2025-11-07 17:42:55,316 - INFO - [EXTRACCION_LOCAL] ok
+2025-11-07 17:42:55,317 - INFO - [TRANSFORMACION] inicio
+2025-11-07 17:42:55,324 - INFO - Descartados sin nombre/codigo: 5
+2025-11-07 17:42:55,325 - INFO - Descartados por codigo no numérico: 0
+2025-11-07 17:42:55,325 - INFO - Eliminados por stock inválido/negativo: 0
+2025-11-07 17:42:55,326 - INFO - Duplicados por código removidos: 0
+2025-11-07 17:42:55,330 - INFO - Transformación final: 0 filas
+2025-11-07 17:42:55,330 - INFO - [TRANSFORMACION] ok
+2025-11-07 17:42:55,330 - INFO - [CARGA] inicio
+2025-11-07 17:42:55,330 - WARNING - No hay datos para cargar.
+2025-11-07 17:42:55,330 - INFO - [CARGA] ok
+2025-11-07 17:42:55,330 - INFO - === FIN PIPELINE ETL (OK) ===
+2025-11-07 17:43:56,649 - INFO - === INICIO PIPELINE ETL ===
+2025-11-07 17:43:56,649 - INFO - [EXTRACCION_LOCAL] inicio
+2025-11-07 17:43:56,660 - INFO - [EXTRACCION_LOCAL] ok
+2025-11-07 17:43:56,660 - INFO - [TRANSFORMACION] inicio
+2025-11-07 17:43:56,665 - INFO - Descartados sin nombre/codigo: 3
+2025-11-07 17:43:56,666 - INFO - Descartados por codigo no numérico: 0
+2025-11-07 17:43:56,667 - INFO - Eliminados por stock inválido/negativo: 0
+2025-11-07 17:43:56,667 - INFO - Duplicados por código removidos: 0
+2025-11-07 17:43:56,671 - INFO - Transformación final: 0 filas
+2025-11-07 17:43:56,671 - INFO - [TRANSFORMACION] ok
+2025-11-07 17:43:56,671 - INFO - [CARGA] inicio
+2025-11-07 17:43:56,671 - WARNING - No hay datos para cargar.
+2025-11-07 17:43:56,671 - INFO - [CARGA] ok
+2025-11-07 17:43:56,672 - INFO - === FIN PIPELINE ETL (OK) ===
+2025-11-07 17:50:56,430 - INFO - === INICIO PIPELINE ETL ===
+2025-11-07 17:50:56,430 - INFO - [EXTRACCION_LOCAL] inicio
+2025-11-07 17:50:56,439 - INFO - [EXTRACCION_LOCAL] ok
+2025-11-07 17:50:56,439 - INFO - [TRANSFORMACION] inicio
+2025-11-07 17:50:56,440 - INFO - Columnas normalizadas: [('ca3digoproducto', 'CÃ³digo Producto'), ('nombre', 'Nombre'), ('descripcia3n', 'DescripciÃ³n'), ('stock', 'Stock'), ('categoraa', 'CategorÃ\xada'), ('imagenurl', 'Imagen(URL)'), ('fuentearchivo', 'Fuente_Archivo')]
+2025-11-07 17:50:56,494 - INFO - Descartados sin nombre/codigo: 3
+2025-11-07 17:50:56,495 - INFO - Eliminados por stock inválido/negativo: 0
+2025-11-07 17:50:56,495 - INFO - Duplicados por código removidos: 0
+2025-11-07 17:50:56,521 - INFO - Transformación final: 0 filas
+2025-11-07 17:50:56,522 - INFO - [TRANSFORMACION] ok
+2025-11-07 17:50:56,522 - INFO - [CARGA] inicio
+2025-11-07 17:50:56,522 - WARNING - No hay datos para cargar.
+2025-11-07 17:50:56,522 - INFO - [CARGA] ok
+2025-11-07 17:50:56,522 - INFO - === FIN PIPELINE ETL (OK) ===
+2025-11-07 17:52:45,041 - INFO - === INICIO PIPELINE ETL ===
+2025-11-07 17:52:45,042 - INFO - [EXTRACCION_LOCAL] inicio
+2025-11-07 17:52:45,047 - INFO - Columnas detectadas: ['Código Producto', 'Nombre', 'Descripción', 'Stock', 'Categoría', 'Imagen(URL)', 'Fuente_Archivo']
+2025-11-07 17:52:45,047 - INFO - [EXTRACCION_LOCAL] ok
+2025-11-07 17:52:45,047 - INFO - [TRANSFORMACION] inicio
+2025-11-07 17:52:45,048 - INFO - Columnas normalizadas: [('codigoproducto', 'Código Producto'), ('nombre', 'Nombre'), ('descripcion', 'Descripción'), ('stock', 'Stock'), ('categoria', 'Categoría'), ('imagenurl', 'Imagen(URL)'), ('fuentearchivo', 'Fuente_Archivo')]
+2025-11-07 17:52:45,051 - INFO - Descartados sin nombre/codigo: 0
+2025-11-07 17:52:45,052 - INFO - Eliminados por stock inválido/negativo: 0
+2025-11-07 17:52:45,053 - INFO - Duplicados por código removidos: 0
+2025-11-07 17:52:45,057 - INFO - Transformación final: 3 filas
+2025-11-07 17:52:45,057 - INFO - [TRANSFORMACION] ok
+2025-11-07 17:52:45,057 - INFO - [CARGA] inicio
+2025-11-07 17:52:45,104 - INFO - Cargados/actualizados: 3 registros
+2025-11-07 17:52:45,104 - INFO - [CARGA] ok
+2025-11-07 17:52:45,104 - INFO - === FIN PIPELINE ETL (OK) ===
+2025-11-07 17:57:56,919 - INFO - === INICIO PIPELINE ETL ===
+2025-11-07 17:57:56,920 - INFO - [EXTRACCION_LOCAL] inicio
+2025-11-07 17:57:56,939 - INFO - Columnas detectadas: ['Código Producto', 'Nombre', 'Descripción', 'Stock', 'Categoría', 'Imagen(URL)', 'Fuente_Archivo', 'sku', 'producto', 'detalle', 'existencia', 'rubro', 'url_imagen', 'ID', 'Titulo', 'Cantidad', 'Familia', 'Descripcion', 'Foto']
+2025-11-07 17:57:56,939 - INFO - [EXTRACCION_LOCAL] ok
+2025-11-07 17:57:56,939 - INFO - [TRANSFORMACION] inicio
+2025-11-07 17:57:56,940 - INFO - Columnas normalizadas: [('codigoproducto', 'Código Producto'), ('nombre', 'Nombre'), ('descripcion', 'Descripción'), ('stock', 'Stock'), ('categoria', 'Categoría'), ('imagenurl', 'Imagen(URL)'), ('fuentearchivo', 'Fuente_Archivo'), ('sku', 'sku'), ('producto', 'producto'), ('detalle', 'detalle'), ('existencia', 'existencia'), ('rubro', 'rubro'), ('urlimagen', 'url_imagen'), ('id', 'ID'), ('titulo', 'Titulo'), ('cantidad', 'Cantidad'), ('familia', 'Familia'), ('descripcion', 'Descripcion'), ('foto', 'Foto')]
+2025-11-07 17:57:56,943 - INFO - Descartados sin nombre/codigo: 10
+2025-11-07 17:57:56,944 - INFO - Eliminados por stock inválido/negativo: 0
+2025-11-07 17:57:56,946 - INFO - Duplicados por código removidos: 0
+2025-11-07 17:57:56,950 - INFO - Transformación final: 3 filas
+2025-11-07 17:57:56,951 - INFO - [TRANSFORMACION] ok
+2025-11-07 17:57:56,951 - INFO - [CARGA] inicio
+2025-11-07 17:57:57,000 - INFO - Cargados/actualizados: 3 registros
+2025-11-07 17:57:57,000 - INFO - [CARGA] ok
+2025-11-07 17:57:57,000 - INFO - === FIN PIPELINE ETL (OK) ===
